@@ -1,0 +1,6382 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "counts": {
+    "patients": {
+      "total": 1055,
+      "train": 738,
+      "val": 158,
+      "test": 159
+    },
+    "images": {
+      "total": 1055,
+      "train": 738,
+      "val": 158,
+      "test": 159
+    },
+    "labels": {
+      "train": {
+        "0": 379,
+        "1": 359
+      },
+      "val": {
+        "1": 80,
+        "0": 78
+      },
+      "test": {
+        "0": 86,
+        "1": 73
+      }
+    }
+  },
+  "by_patient": {
+    "train": [
+      "H002",
+      "H003",
+      "H005",
+      "H006",
+      "H007",
+      "H009",
+      "H010",
+      "H011",
+      "H013",
+      "H015",
+      "H016",
+      "H017",
+      "H018",
+      "H019",
+      "H021",
+      "H023",
+      "H024",
+      "H025",
+      "H026",
+      "H027",
+      "H028",
+      "H029",
+      "H030",
+      "H031",
+      "H032",
+      "H034",
+      "H035",
+      "H036",
+      "H037",
+      "H038",
+      "H039",
+      "H040",
+      "H041",
+      "H042",
+      "H043",
+      "H044",
+      "H046",
+      "H048",
+      "H050",
+      "H051",
+      "H053",
+      "H054",
+      "H057",
+      "H059",
+      "H064",
+      "H065",
+      "H067",
+      "H069",
+      "H075",
+      "H076",
+      "H077",
+      "H078",
+      "H079",
+      "H080",
+      "H083",
+      "H084",
+      "H085",
+      "H086",
+      "H087",
+      "H089",
+      "H090",
+      "H091",
+      "H092",
+      "H093",
+      "H095",
+      "H096",
+      "H098",
+      "H099",
+      "H102",
+      "H103",
+      "H105",
+      "H106",
+      "H107",
+      "H108",
+      "H110",
+      "H111",
+      "H114",
+      "H116",
+      "H117",
+      "H119",
+      "H120",
+      "H121",
+      "H122",
+      "H123",
+      "H125",
+      "H126",
+      "H127",
+      "H130",
+      "H131",
+      "H133",
+      "H134",
+      "H135",
+      "H137",
+      "H138",
+      "H139",
+      "H140",
+      "H141",
+      "H145",
+      "H146",
+      "H148",
+      "H149",
+      "H150",
+      "H151",
+      "H152",
+      "H153",
+      "H154",
+      "H155",
+      "H156",
+      "H158",
+      "H159",
+      "H160",
+      "H161",
+      "H163",
+      "H165",
+      "H169",
+      "H171",
+      "H172",
+      "H173",
+      "H174",
+      "H175",
+      "H177",
+      "H178",
+      "H180",
+      "H181",
+      "H182",
+      "H184",
+      "H185",
+      "H186",
+      "H187",
+      "H189",
+      "H191",
+      "H193",
+      "H194",
+      "H196",
+      "H198",
+      "H199",
+      "H200",
+      "H201",
+      "H202",
+      "H203",
+      "H205",
+      "H207",
+      "H208",
+      "H209",
+      "H211",
+      "H212",
+      "H213",
+      "H214",
+      "H216",
+      "H219",
+      "H221",
+      "H222",
+      "H223",
+      "H224",
+      "H227",
+      "H228",
+      "H230",
+      "H232",
+      "H233",
+      "H237",
+      "H238",
+      "H240",
+      "H241",
+      "H242",
+      "H243",
+      "H245",
+      "H248",
+      "H250",
+      "H252",
+      "H256",
+      "H257",
+      "H259",
+      "H260",
+      "H261",
+      "H262",
+      "H263",
+      "H264",
+      "H265",
+      "H266",
+      "H267",
+      "H268",
+      "H269",
+      "H273",
+      "H276",
+      "H278",
+      "H279",
+      "H280",
+      "H281",
+      "H282",
+      "H283",
+      "H284",
+      "H287",
+      "H288",
+      "H289",
+      "H290",
+      "H291",
+      "H292",
+      "H293",
+      "H294",
+      "H295",
+      "H296",
+      "H298",
+      "H299",
+      "H300",
+      "H302",
+      "H303",
+      "H304",
+      "H305",
+      "H307",
+      "H308",
+      "H309",
+      "H310",
+      "H311",
+      "H312",
+      "H313",
+      "H314",
+      "H316",
+      "H317",
+      "H318",
+      "H321",
+      "H322",
+      "H325",
+      "H326",
+      "H328",
+      "H329",
+      "H330",
+      "H331",
+      "H334",
+      "H335",
+      "H336",
+      "H337",
+      "H338",
+      "H340",
+      "H341",
+      "H342",
+      "H343",
+      "H344",
+      "H345",
+      "H346",
+      "H350",
+      "H351",
+      "H352",
+      "H354",
+      "H355",
+      "H356",
+      "H357",
+      "H358",
+      "H359",
+      "H360",
+      "H361",
+      "H362",
+      "H365",
+      "H366",
+      "H367",
+      "H369",
+      "H370",
+      "H373",
+      "H375",
+      "H376",
+      "H377",
+      "H378",
+      "H379",
+      "H381",
+      "H382",
+      "H384",
+      "H385",
+      "H386",
+      "H387",
+      "H392",
+      "H393",
+      "H394",
+      "H396",
+      "H397",
+      "H398",
+      "H399",
+      "H400",
+      "H401",
+      "H402",
+      "H403",
+      "H404",
+      "H405",
+      "H407",
+      "H410",
+      "H412",
+      "H414",
+      "H415",
+      "H416",
+      "H418",
+      "H419",
+      "H420",
+      "H422",
+      "H423",
+      "H424",
+      "H425",
+      "H426",
+      "H427",
+      "H428",
+      "H429",
+      "H430",
+      "H431",
+      "H432",
+      "H435",
+      "H436",
+      "H437",
+      "H438",
+      "H440",
+      "H443",
+      "H444",
+      "H445",
+      "H447",
+      "H450",
+      "H451",
+      "H453",
+      "H454",
+      "H455",
+      "H456",
+      "H457",
+      "H459",
+      "H461",
+      "H462",
+      "H464",
+      "H466",
+      "H467",
+      "H468",
+      "H469",
+      "H472",
+      "H473",
+      "H475",
+      "H476",
+      "H478",
+      "H481",
+      "H482",
+      "H483",
+      "H484",
+      "H486",
+      "H488",
+      "H489",
+      "H490",
+      "H491",
+      "H492",
+      "H493",
+      "H494",
+      "H495",
+      "H496",
+      "H497",
+      "H499",
+      "H500",
+      "H503",
+      "H504",
+      "H505",
+      "H507",
+      "H508",
+      "H509",
+      "H510",
+      "H511",
+      "H514",
+      "H515",
+      "H516",
+      "H517",
+      "H518",
+      "H519",
+      "H521",
+      "H523",
+      "H524",
+      "H525",
+      "H526",
+      "H528",
+      "H529",
+      "H531",
+      "H532",
+      "H533",
+      "H534",
+      "H535",
+      "H536",
+      "H537",
+      "H538",
+      "H539",
+      "H540",
+      "H543",
+      "U002",
+      "U005",
+      "U006",
+      "U008",
+      "U011",
+      "U012",
+      "U013",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019",
+      "U022",
+      "U026",
+      "U029",
+      "U030",
+      "U031",
+      "U033",
+      "U034",
+      "U035",
+      "U036",
+      "U037",
+      "U039",
+      "U040",
+      "U041",
+      "U043",
+      "U044",
+      "U045",
+      "U046",
+      "U047",
+      "U050",
+      "U051",
+      "U052",
+      "U053",
+      "U054",
+      "U057",
+      "U058",
+      "U059",
+      "U061",
+      "U062",
+      "U063",
+      "U064",
+      "U065",
+      "U066",
+      "U067",
+      "U069",
+      "U070",
+      "U072",
+      "U073",
+      "U074",
+      "U075",
+      "U077",
+      "U078",
+      "U080",
+      "U082",
+      "U083",
+      "U084",
+      "U085",
+      "U086",
+      "U087",
+      "U088",
+      "U089",
+      "U090",
+      "U092",
+      "U093",
+      "U094",
+      "U095",
+      "U096",
+      "U097",
+      "U099",
+      "U102",
+      "U103",
+      "U105",
+      "U106",
+      "U107",
+      "U109",
+      "U110",
+      "U111",
+      "U115",
+      "U117",
+      "U118",
+      "U120",
+      "U122",
+      "U124",
+      "U125",
+      "U126",
+      "U128",
+      "U130",
+      "U131",
+      "U134",
+      "U136",
+      "U137",
+      "U138",
+      "U139",
+      "U140",
+      "U141",
+      "U142",
+      "U146",
+      "U148",
+      "U149",
+      "U150",
+      "U151",
+      "U152",
+      "U153",
+      "U155",
+      "U158",
+      "U160",
+      "U161",
+      "U163",
+      "U165",
+      "U166",
+      "U167",
+      "U168",
+      "U169",
+      "U170",
+      "U171",
+      "U172",
+      "U173",
+      "U174",
+      "U175",
+      "U177",
+      "U178",
+      "U180",
+      "U181",
+      "U183",
+      "U184",
+      "U185",
+      "U186",
+      "U187",
+      "U189",
+      "U190",
+      "U191",
+      "U192",
+      "U195",
+      "U199",
+      "U200",
+      "U201",
+      "U202",
+      "U206",
+      "U208",
+      "U209",
+      "U210",
+      "U211",
+      "U212",
+      "U213",
+      "U214",
+      "U215",
+      "U216",
+      "U217",
+      "U218",
+      "U219",
+      "U221",
+      "U223",
+      "U225",
+      "U227",
+      "U229",
+      "U230",
+      "U232",
+      "U233",
+      "U234",
+      "U235",
+      "U239",
+      "U240",
+      "U241",
+      "U243",
+      "U246",
+      "U247",
+      "U250",
+      "U251",
+      "U253",
+      "U256",
+      "U257",
+      "U258",
+      "U259",
+      "U260",
+      "U261",
+      "U262",
+      "U263",
+      "U264",
+      "U265",
+      "U266",
+      "U267",
+      "U268",
+      "U270",
+      "U271",
+      "U272",
+      "U273",
+      "U275",
+      "U277",
+      "U278",
+      "U279",
+      "U280",
+      "U281",
+      "U283",
+      "U285",
+      "U286",
+      "U287",
+      "U288",
+      "U289",
+      "U291",
+      "U292",
+      "U293",
+      "U294",
+      "U295",
+      "U296",
+      "U297",
+      "U298",
+      "U300",
+      "U301",
+      "U302",
+      "U303",
+      "U304",
+      "U305",
+      "U306",
+      "U308",
+      "U310",
+      "U311",
+      "U313",
+      "U314",
+      "U315",
+      "U316",
+      "U318",
+      "U319",
+      "U320",
+      "U324",
+      "U326",
+      "U327",
+      "U328",
+      "U329",
+      "U330",
+      "U331",
+      "U332",
+      "U334",
+      "U335",
+      "U336",
+      "U337",
+      "U338",
+      "U341",
+      "U342",
+      "U343",
+      "U344",
+      "U346",
+      "U347",
+      "U348",
+      "U349",
+      "U350",
+      "U351",
+      "U352",
+      "U357",
+      "U358",
+      "U359",
+      "U361",
+      "U365",
+      "U366",
+      "U367",
+      "U368",
+      "U369",
+      "U370",
+      "U372",
+      "U373",
+      "U374",
+      "U375",
+      "U378",
+      "U379",
+      "U380",
+      "U381",
+      "U383",
+      "U384",
+      "U385",
+      "U386",
+      "U387",
+      "U388",
+      "U389",
+      "U390",
+      "U391",
+      "U392",
+      "U397",
+      "U398",
+      "U399",
+      "U400",
+      "U401",
+      "U403",
+      "U406",
+      "U407",
+      "U409",
+      "U410",
+      "U412",
+      "U413",
+      "U414",
+      "U415",
+      "U416",
+      "U418",
+      "U419",
+      "U420",
+      "U422",
+      "U423",
+      "U424",
+      "U426",
+      "U427",
+      "U428",
+      "U429",
+      "U430",
+      "U432",
+      "U433",
+      "U434",
+      "U435",
+      "U436",
+      "U437",
+      "U441",
+      "U442",
+      "U443",
+      "U445",
+      "U447",
+      "U448",
+      "U449",
+      "U450",
+      "U451",
+      "U452",
+      "U453",
+      "U456",
+      "U458",
+      "U460",
+      "U461",
+      "U462",
+      "U464",
+      "U466",
+      "U468",
+      "U469",
+      "U471",
+      "U473",
+      "U475",
+      "U476",
+      "U477",
+      "U478",
+      "U479",
+      "U482",
+      "U483",
+      "U485",
+      "U486",
+      "U487",
+      "U490",
+      "U491",
+      "U493",
+      "U494",
+      "U495",
+      "U496",
+      "U497",
+      "U499",
+      "U500",
+      "U501",
+      "U502",
+      "U504",
+      "U505",
+      "U508",
+      "U509",
+      "U510",
+      "U511",
+      "U512"
+    ],
+    "val": [
+      "H001",
+      "H004",
+      "H008",
+      "H012",
+      "H020",
+      "H022",
+      "H056",
+      "H060",
+      "H061",
+      "H063",
+      "H070",
+      "H071",
+      "H073",
+      "H088",
+      "H097",
+      "H101",
+      "H109",
+      "H112",
+      "H115",
+      "H118",
+      "H124",
+      "H129",
+      "H132",
+      "H136",
+      "H144",
+      "H162",
+      "H166",
+      "H170",
+      "H183",
+      "H188",
+      "H195",
+      "H204",
+      "H206",
+      "H220",
+      "H226",
+      "H231",
+      "H236",
+      "H244",
+      "H246",
+      "H247",
+      "H249",
+      "H254",
+      "H255",
+      "H258",
+      "H306",
+      "H315",
+      "H320",
+      "H332",
+      "H339",
+      "H347",
+      "H348",
+      "H349",
+      "H363",
+      "H372",
+      "H383",
+      "H391",
+      "H395",
+      "H413",
+      "H417",
+      "H421",
+      "H434",
+      "H442",
+      "H446",
+      "H449",
+      "H460",
+      "H463",
+      "H479",
+      "H480",
+      "H485",
+      "H487",
+      "H498",
+      "H501",
+      "H513",
+      "H520",
+      "H527",
+      "H530",
+      "H541",
+      "H542",
+      "U001",
+      "U003",
+      "U010",
+      "U020",
+      "U024",
+      "U025",
+      "U042",
+      "U048",
+      "U060",
+      "U071",
+      "U079",
+      "U098",
+      "U104",
+      "U112",
+      "U114",
+      "U119",
+      "U123",
+      "U127",
+      "U132",
+      "U133",
+      "U143",
+      "U145",
+      "U156",
+      "U164",
+      "U182",
+      "U188",
+      "U194",
+      "U196",
+      "U197",
+      "U198",
+      "U203",
+      "U207",
+      "U224",
+      "U226",
+      "U228",
+      "U237",
+      "U238",
+      "U242",
+      "U245",
+      "U248",
+      "U254",
+      "U255",
+      "U274",
+      "U276",
+      "U290",
+      "U309",
+      "U353",
+      "U354",
+      "U356",
+      "U360",
+      "U362",
+      "U371",
+      "U376",
+      "U382",
+      "U394",
+      "U395",
+      "U396",
+      "U404",
+      "U408",
+      "U421",
+      "U425",
+      "U431",
+      "U438",
+      "U440",
+      "U444",
+      "U446",
+      "U455",
+      "U459",
+      "U463",
+      "U465",
+      "U467",
+      "U470",
+      "U472",
+      "U474",
+      "U480",
+      "U481",
+      "U484",
+      "U489",
+      "U503",
+      "U507"
+    ],
+    "test": [
+      "H014",
+      "H033",
+      "H045",
+      "H047",
+      "H049",
+      "H052",
+      "H055",
+      "H058",
+      "H062",
+      "H066",
+      "H068",
+      "H072",
+      "H074",
+      "H081",
+      "H082",
+      "H094",
+      "H100",
+      "H104",
+      "H113",
+      "H128",
+      "H142",
+      "H143",
+      "H147",
+      "H157",
+      "H164",
+      "H167",
+      "H168",
+      "H176",
+      "H179",
+      "H190",
+      "H192",
+      "H197",
+      "H210",
+      "H215",
+      "H217",
+      "H218",
+      "H225",
+      "H229",
+      "H234",
+      "H235",
+      "H239",
+      "H251",
+      "H253",
+      "H270",
+      "H271",
+      "H272",
+      "H274",
+      "H275",
+      "H277",
+      "H285",
+      "H286",
+      "H297",
+      "H301",
+      "H319",
+      "H323",
+      "H324",
+      "H327",
+      "H333",
+      "H353",
+      "H364",
+      "H368",
+      "H371",
+      "H374",
+      "H380",
+      "H388",
+      "H389",
+      "H390",
+      "H406",
+      "H408",
+      "H409",
+      "H411",
+      "H433",
+      "H439",
+      "H441",
+      "H448",
+      "H452",
+      "H458",
+      "H465",
+      "H470",
+      "H471",
+      "H474",
+      "H477",
+      "H502",
+      "H506",
+      "H512",
+      "H522",
+      "U004",
+      "U007",
+      "U009",
+      "U021",
+      "U023",
+      "U027",
+      "U028",
+      "U032",
+      "U038",
+      "U049",
+      "U055",
+      "U056",
+      "U068",
+      "U076",
+      "U081",
+      "U091",
+      "U100",
+      "U101",
+      "U108",
+      "U113",
+      "U116",
+      "U121",
+      "U129",
+      "U135",
+      "U144",
+      "U147",
+      "U154",
+      "U157",
+      "U159",
+      "U162",
+      "U176",
+      "U179",
+      "U193",
+      "U204",
+      "U205",
+      "U220",
+      "U222",
+      "U231",
+      "U236",
+      "U244",
+      "U249",
+      "U252",
+      "U269",
+      "U282",
+      "U284",
+      "U299",
+      "U307",
+      "U312",
+      "U317",
+      "U321",
+      "U322",
+      "U323",
+      "U325",
+      "U333",
+      "U339",
+      "U340",
+      "U345",
+      "U355",
+      "U363",
+      "U364",
+      "U377",
+      "U393",
+      "U402",
+      "U405",
+      "U411",
+      "U417",
+      "U439",
+      "U454",
+      "U457",
+      "U488",
+      "U492",
+      "U498",
+      "U506"
+    ]
+  },
+  "splits": {
+    "train": [
+      {
+        "image_path": "data/raw/images/healthy/healthy_002.jpg",
+        "label": 0,
+        "patient_id": "H002"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_003.jpg",
+        "label": 0,
+        "patient_id": "H003"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_005.jpg",
+        "label": 0,
+        "patient_id": "H005"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_006.jpg",
+        "label": 0,
+        "patient_id": "H006"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_007.jpg",
+        "label": 0,
+        "patient_id": "H007"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_009.jpg",
+        "label": 0,
+        "patient_id": "H009"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_010.jpg",
+        "label": 0,
+        "patient_id": "H010"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_011.jpg",
+        "label": 0,
+        "patient_id": "H011"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_013.jpg",
+        "label": 0,
+        "patient_id": "H013"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_015.jpg",
+        "label": 0,
+        "patient_id": "H015"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_016.jpg",
+        "label": 0,
+        "patient_id": "H016"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_017.jpg",
+        "label": 0,
+        "patient_id": "H017"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_018.jpg",
+        "label": 0,
+        "patient_id": "H018"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_019.jpg",
+        "label": 0,
+        "patient_id": "H019"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_021.jpg",
+        "label": 0,
+        "patient_id": "H021"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_023.jpg",
+        "label": 0,
+        "patient_id": "H023"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_024.jpg",
+        "label": 0,
+        "patient_id": "H024"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_025.jpg",
+        "label": 0,
+        "patient_id": "H025"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_026.jpg",
+        "label": 0,
+        "patient_id": "H026"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_027.jpg",
+        "label": 0,
+        "patient_id": "H027"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_028.jpg",
+        "label": 0,
+        "patient_id": "H028"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_029.jpg",
+        "label": 0,
+        "patient_id": "H029"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_030.jpg",
+        "label": 0,
+        "patient_id": "H030"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_031.jpg",
+        "label": 0,
+        "patient_id": "H031"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_032.jpg",
+        "label": 0,
+        "patient_id": "H032"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_034.jpg",
+        "label": 0,
+        "patient_id": "H034"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_035.jpg",
+        "label": 0,
+        "patient_id": "H035"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_036.jpg",
+        "label": 0,
+        "patient_id": "H036"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_037.jpg",
+        "label": 0,
+        "patient_id": "H037"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_038.jpg",
+        "label": 0,
+        "patient_id": "H038"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_039.jpg",
+        "label": 0,
+        "patient_id": "H039"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_040.jpg",
+        "label": 0,
+        "patient_id": "H040"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_041.jpg",
+        "label": 0,
+        "patient_id": "H041"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_042.jpg",
+        "label": 0,
+        "patient_id": "H042"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_043.jpg",
+        "label": 0,
+        "patient_id": "H043"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_044.jpg",
+        "label": 0,
+        "patient_id": "H044"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_046.jpg",
+        "label": 0,
+        "patient_id": "H046"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_048.jpg",
+        "label": 0,
+        "patient_id": "H048"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_050.jpg",
+        "label": 0,
+        "patient_id": "H050"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_051.jpg",
+        "label": 0,
+        "patient_id": "H051"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_053.jpg",
+        "label": 0,
+        "patient_id": "H053"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_054.jpg",
+        "label": 0,
+        "patient_id": "H054"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_057.jpg",
+        "label": 0,
+        "patient_id": "H057"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_059.jpg",
+        "label": 0,
+        "patient_id": "H059"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_064.jpg",
+        "label": 0,
+        "patient_id": "H064"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_065.jpg",
+        "label": 0,
+        "patient_id": "H065"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_067.jpg",
+        "label": 0,
+        "patient_id": "H067"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_069.jpg",
+        "label": 0,
+        "patient_id": "H069"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_075.jpg",
+        "label": 0,
+        "patient_id": "H075"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_076.jpg",
+        "label": 0,
+        "patient_id": "H076"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_077.jpg",
+        "label": 0,
+        "patient_id": "H077"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_078.jpg",
+        "label": 0,
+        "patient_id": "H078"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_079.jpg",
+        "label": 0,
+        "patient_id": "H079"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_080.jpg",
+        "label": 0,
+        "patient_id": "H080"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_083.jpg",
+        "label": 0,
+        "patient_id": "H083"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_084.jpg",
+        "label": 0,
+        "patient_id": "H084"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_085.jpg",
+        "label": 0,
+        "patient_id": "H085"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_086.jpg",
+        "label": 0,
+        "patient_id": "H086"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_087.jpg",
+        "label": 0,
+        "patient_id": "H087"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_089.jpg",
+        "label": 0,
+        "patient_id": "H089"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_090.jpg",
+        "label": 0,
+        "patient_id": "H090"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_091.jpg",
+        "label": 0,
+        "patient_id": "H091"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_092.jpg",
+        "label": 0,
+        "patient_id": "H092"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_093.jpg",
+        "label": 0,
+        "patient_id": "H093"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_095.jpg",
+        "label": 0,
+        "patient_id": "H095"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_096.jpg",
+        "label": 0,
+        "patient_id": "H096"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_098.jpg",
+        "label": 0,
+        "patient_id": "H098"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_099.jpg",
+        "label": 0,
+        "patient_id": "H099"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_102.jpg",
+        "label": 0,
+        "patient_id": "H102"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_103.jpg",
+        "label": 0,
+        "patient_id": "H103"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_105.jpg",
+        "label": 0,
+        "patient_id": "H105"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_106.jpg",
+        "label": 0,
+        "patient_id": "H106"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_107.jpg",
+        "label": 0,
+        "patient_id": "H107"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_108.jpg",
+        "label": 0,
+        "patient_id": "H108"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_110.jpg",
+        "label": 0,
+        "patient_id": "H110"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_111.jpg",
+        "label": 0,
+        "patient_id": "H111"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_114.jpg",
+        "label": 0,
+        "patient_id": "H114"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_116.jpg",
+        "label": 0,
+        "patient_id": "H116"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_117.jpg",
+        "label": 0,
+        "patient_id": "H117"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_119.jpg",
+        "label": 0,
+        "patient_id": "H119"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_120.jpg",
+        "label": 0,
+        "patient_id": "H120"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_121.jpg",
+        "label": 0,
+        "patient_id": "H121"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_122.jpg",
+        "label": 0,
+        "patient_id": "H122"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_123.jpg",
+        "label": 0,
+        "patient_id": "H123"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_125.jpg",
+        "label": 0,
+        "patient_id": "H125"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_126.jpg",
+        "label": 0,
+        "patient_id": "H126"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_127.jpg",
+        "label": 0,
+        "patient_id": "H127"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_130.jpg",
+        "label": 0,
+        "patient_id": "H130"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_131.jpg",
+        "label": 0,
+        "patient_id": "H131"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_133.jpg",
+        "label": 0,
+        "patient_id": "H133"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_134.jpg",
+        "label": 0,
+        "patient_id": "H134"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_135.jpg",
+        "label": 0,
+        "patient_id": "H135"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_137.jpg",
+        "label": 0,
+        "patient_id": "H137"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_138.jpg",
+        "label": 0,
+        "patient_id": "H138"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_139.jpg",
+        "label": 0,
+        "patient_id": "H139"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_140.jpg",
+        "label": 0,
+        "patient_id": "H140"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_141.jpg",
+        "label": 0,
+        "patient_id": "H141"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_145.jpg",
+        "label": 0,
+        "patient_id": "H145"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_146.jpg",
+        "label": 0,
+        "patient_id": "H146"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_148.jpg",
+        "label": 0,
+        "patient_id": "H148"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_149.jpg",
+        "label": 0,
+        "patient_id": "H149"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_150.jpg",
+        "label": 0,
+        "patient_id": "H150"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_151.jpg",
+        "label": 0,
+        "patient_id": "H151"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_152.jpg",
+        "label": 0,
+        "patient_id": "H152"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_153.jpg",
+        "label": 0,
+        "patient_id": "H153"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_154.jpg",
+        "label": 0,
+        "patient_id": "H154"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_155.jpg",
+        "label": 0,
+        "patient_id": "H155"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_156.jpg",
+        "label": 0,
+        "patient_id": "H156"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_158.jpg",
+        "label": 0,
+        "patient_id": "H158"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_159.jpg",
+        "label": 0,
+        "patient_id": "H159"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_160.jpg",
+        "label": 0,
+        "patient_id": "H160"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_161.jpg",
+        "label": 0,
+        "patient_id": "H161"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_163.jpg",
+        "label": 0,
+        "patient_id": "H163"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_165.jpg",
+        "label": 0,
+        "patient_id": "H165"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_169.jpg",
+        "label": 0,
+        "patient_id": "H169"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_171.jpg",
+        "label": 0,
+        "patient_id": "H171"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_172.jpg",
+        "label": 0,
+        "patient_id": "H172"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_173.jpg",
+        "label": 0,
+        "patient_id": "H173"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_174.jpg",
+        "label": 0,
+        "patient_id": "H174"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_175.jpg",
+        "label": 0,
+        "patient_id": "H175"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_177.jpg",
+        "label": 0,
+        "patient_id": "H177"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_178.jpg",
+        "label": 0,
+        "patient_id": "H178"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_180.jpg",
+        "label": 0,
+        "patient_id": "H180"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_181.jpg",
+        "label": 0,
+        "patient_id": "H181"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_182.jpg",
+        "label": 0,
+        "patient_id": "H182"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_184.jpg",
+        "label": 0,
+        "patient_id": "H184"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_185.jpg",
+        "label": 0,
+        "patient_id": "H185"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_186.jpg",
+        "label": 0,
+        "patient_id": "H186"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_187.jpg",
+        "label": 0,
+        "patient_id": "H187"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_189.jpg",
+        "label": 0,
+        "patient_id": "H189"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_191.jpg",
+        "label": 0,
+        "patient_id": "H191"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_193.jpg",
+        "label": 0,
+        "patient_id": "H193"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_194.jpg",
+        "label": 0,
+        "patient_id": "H194"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_196.jpg",
+        "label": 0,
+        "patient_id": "H196"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_198.jpg",
+        "label": 0,
+        "patient_id": "H198"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_199.jpg",
+        "label": 0,
+        "patient_id": "H199"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_200.jpg",
+        "label": 0,
+        "patient_id": "H200"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_201.jpg",
+        "label": 0,
+        "patient_id": "H201"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_202.jpg",
+        "label": 0,
+        "patient_id": "H202"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_203.jpg",
+        "label": 0,
+        "patient_id": "H203"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_205.jpg",
+        "label": 0,
+        "patient_id": "H205"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_207.jpg",
+        "label": 0,
+        "patient_id": "H207"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_208.jpg",
+        "label": 0,
+        "patient_id": "H208"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_209.jpg",
+        "label": 0,
+        "patient_id": "H209"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_211.jpg",
+        "label": 0,
+        "patient_id": "H211"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_212.jpg",
+        "label": 0,
+        "patient_id": "H212"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_213.jpg",
+        "label": 0,
+        "patient_id": "H213"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_214.jpg",
+        "label": 0,
+        "patient_id": "H214"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_216.jpg",
+        "label": 0,
+        "patient_id": "H216"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_219.jpg",
+        "label": 0,
+        "patient_id": "H219"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_221.jpg",
+        "label": 0,
+        "patient_id": "H221"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_222.jpg",
+        "label": 0,
+        "patient_id": "H222"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_223.jpg",
+        "label": 0,
+        "patient_id": "H223"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_224.jpg",
+        "label": 0,
+        "patient_id": "H224"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_227.jpg",
+        "label": 0,
+        "patient_id": "H227"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_228.jpg",
+        "label": 0,
+        "patient_id": "H228"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_230.jpg",
+        "label": 0,
+        "patient_id": "H230"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_232.jpg",
+        "label": 0,
+        "patient_id": "H232"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_233.jpg",
+        "label": 0,
+        "patient_id": "H233"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_237.jpg",
+        "label": 0,
+        "patient_id": "H237"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_238.jpg",
+        "label": 0,
+        "patient_id": "H238"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_240.jpg",
+        "label": 0,
+        "patient_id": "H240"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_241.jpg",
+        "label": 0,
+        "patient_id": "H241"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_242.jpg",
+        "label": 0,
+        "patient_id": "H242"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_243.jpg",
+        "label": 0,
+        "patient_id": "H243"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_245.jpg",
+        "label": 0,
+        "patient_id": "H245"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_248.jpg",
+        "label": 0,
+        "patient_id": "H248"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_250.jpg",
+        "label": 0,
+        "patient_id": "H250"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_252.jpg",
+        "label": 0,
+        "patient_id": "H252"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_256.jpg",
+        "label": 0,
+        "patient_id": "H256"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_257.jpg",
+        "label": 0,
+        "patient_id": "H257"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_259.jpg",
+        "label": 0,
+        "patient_id": "H259"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_260.jpg",
+        "label": 0,
+        "patient_id": "H260"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_261.jpg",
+        "label": 0,
+        "patient_id": "H261"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_262.jpg",
+        "label": 0,
+        "patient_id": "H262"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_263.jpg",
+        "label": 0,
+        "patient_id": "H263"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_264.jpg",
+        "label": 0,
+        "patient_id": "H264"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_265.jpg",
+        "label": 0,
+        "patient_id": "H265"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_266.jpg",
+        "label": 0,
+        "patient_id": "H266"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_267.jpg",
+        "label": 0,
+        "patient_id": "H267"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_268.jpg",
+        "label": 0,
+        "patient_id": "H268"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_269.jpg",
+        "label": 0,
+        "patient_id": "H269"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_273.jpg",
+        "label": 0,
+        "patient_id": "H273"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_276.jpg",
+        "label": 0,
+        "patient_id": "H276"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_278.jpg",
+        "label": 0,
+        "patient_id": "H278"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_279.jpg",
+        "label": 0,
+        "patient_id": "H279"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_280.jpg",
+        "label": 0,
+        "patient_id": "H280"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_281.jpg",
+        "label": 0,
+        "patient_id": "H281"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_282.jpg",
+        "label": 0,
+        "patient_id": "H282"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_283.jpg",
+        "label": 0,
+        "patient_id": "H283"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_284.jpg",
+        "label": 0,
+        "patient_id": "H284"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_287.jpg",
+        "label": 0,
+        "patient_id": "H287"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_288.jpg",
+        "label": 0,
+        "patient_id": "H288"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_289.jpg",
+        "label": 0,
+        "patient_id": "H289"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_290.jpg",
+        "label": 0,
+        "patient_id": "H290"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_291.jpg",
+        "label": 0,
+        "patient_id": "H291"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_292.jpg",
+        "label": 0,
+        "patient_id": "H292"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_293.jpg",
+        "label": 0,
+        "patient_id": "H293"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_294.jpg",
+        "label": 0,
+        "patient_id": "H294"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_295.jpg",
+        "label": 0,
+        "patient_id": "H295"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_296.jpg",
+        "label": 0,
+        "patient_id": "H296"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_298.jpg",
+        "label": 0,
+        "patient_id": "H298"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_299.jpg",
+        "label": 0,
+        "patient_id": "H299"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_300.jpg",
+        "label": 0,
+        "patient_id": "H300"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_302.jpg",
+        "label": 0,
+        "patient_id": "H302"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_303.jpg",
+        "label": 0,
+        "patient_id": "H303"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_304.jpg",
+        "label": 0,
+        "patient_id": "H304"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_305.jpg",
+        "label": 0,
+        "patient_id": "H305"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_307.jpg",
+        "label": 0,
+        "patient_id": "H307"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_308.jpg",
+        "label": 0,
+        "patient_id": "H308"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_309.jpg",
+        "label": 0,
+        "patient_id": "H309"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_310.jpg",
+        "label": 0,
+        "patient_id": "H310"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_311.jpg",
+        "label": 0,
+        "patient_id": "H311"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_312.jpg",
+        "label": 0,
+        "patient_id": "H312"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_313.jpg",
+        "label": 0,
+        "patient_id": "H313"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_314.jpg",
+        "label": 0,
+        "patient_id": "H314"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_316.jpg",
+        "label": 0,
+        "patient_id": "H316"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_317.jpg",
+        "label": 0,
+        "patient_id": "H317"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_318.jpg",
+        "label": 0,
+        "patient_id": "H318"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_321.jpg",
+        "label": 0,
+        "patient_id": "H321"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_322.jpg",
+        "label": 0,
+        "patient_id": "H322"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_325.jpg",
+        "label": 0,
+        "patient_id": "H325"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_326.jpg",
+        "label": 0,
+        "patient_id": "H326"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_328.jpg",
+        "label": 0,
+        "patient_id": "H328"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_329.jpg",
+        "label": 0,
+        "patient_id": "H329"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_330.jpg",
+        "label": 0,
+        "patient_id": "H330"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_331.jpg",
+        "label": 0,
+        "patient_id": "H331"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_334.jpg",
+        "label": 0,
+        "patient_id": "H334"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_335.jpg",
+        "label": 0,
+        "patient_id": "H335"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_336.jpg",
+        "label": 0,
+        "patient_id": "H336"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_337.jpg",
+        "label": 0,
+        "patient_id": "H337"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_338.jpg",
+        "label": 0,
+        "patient_id": "H338"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_340.jpg",
+        "label": 0,
+        "patient_id": "H340"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_341.jpg",
+        "label": 0,
+        "patient_id": "H341"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_342.jpg",
+        "label": 0,
+        "patient_id": "H342"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_343.jpg",
+        "label": 0,
+        "patient_id": "H343"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_344.jpg",
+        "label": 0,
+        "patient_id": "H344"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_345.jpg",
+        "label": 0,
+        "patient_id": "H345"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_346.jpg",
+        "label": 0,
+        "patient_id": "H346"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_350.jpg",
+        "label": 0,
+        "patient_id": "H350"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_351.jpg",
+        "label": 0,
+        "patient_id": "H351"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_352.jpg",
+        "label": 0,
+        "patient_id": "H352"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_354.jpg",
+        "label": 0,
+        "patient_id": "H354"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_355.jpg",
+        "label": 0,
+        "patient_id": "H355"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_356.jpg",
+        "label": 0,
+        "patient_id": "H356"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_357.jpg",
+        "label": 0,
+        "patient_id": "H357"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_358.jpg",
+        "label": 0,
+        "patient_id": "H358"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_359.jpg",
+        "label": 0,
+        "patient_id": "H359"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_360.jpg",
+        "label": 0,
+        "patient_id": "H360"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_361.jpg",
+        "label": 0,
+        "patient_id": "H361"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_362.jpg",
+        "label": 0,
+        "patient_id": "H362"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_365.jpg",
+        "label": 0,
+        "patient_id": "H365"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_366.jpg",
+        "label": 0,
+        "patient_id": "H366"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_367.jpg",
+        "label": 0,
+        "patient_id": "H367"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_369.jpg",
+        "label": 0,
+        "patient_id": "H369"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_370.jpg",
+        "label": 0,
+        "patient_id": "H370"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_373.jpg",
+        "label": 0,
+        "patient_id": "H373"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_375.jpg",
+        "label": 0,
+        "patient_id": "H375"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_376.jpg",
+        "label": 0,
+        "patient_id": "H376"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_377.jpg",
+        "label": 0,
+        "patient_id": "H377"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_378.jpg",
+        "label": 0,
+        "patient_id": "H378"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_379.jpg",
+        "label": 0,
+        "patient_id": "H379"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_381.jpg",
+        "label": 0,
+        "patient_id": "H381"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_382.jpg",
+        "label": 0,
+        "patient_id": "H382"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_384.jpg",
+        "label": 0,
+        "patient_id": "H384"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_385.jpg",
+        "label": 0,
+        "patient_id": "H385"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_386.jpg",
+        "label": 0,
+        "patient_id": "H386"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_387.jpg",
+        "label": 0,
+        "patient_id": "H387"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_392.jpg",
+        "label": 0,
+        "patient_id": "H392"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_393.jpg",
+        "label": 0,
+        "patient_id": "H393"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_394.jpg",
+        "label": 0,
+        "patient_id": "H394"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_396.jpg",
+        "label": 0,
+        "patient_id": "H396"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_397.jpg",
+        "label": 0,
+        "patient_id": "H397"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_398.jpg",
+        "label": 0,
+        "patient_id": "H398"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_399.jpg",
+        "label": 0,
+        "patient_id": "H399"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_400.jpg",
+        "label": 0,
+        "patient_id": "H400"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_401.jpg",
+        "label": 0,
+        "patient_id": "H401"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_402.jpg",
+        "label": 0,
+        "patient_id": "H402"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_403.jpg",
+        "label": 0,
+        "patient_id": "H403"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_404.jpg",
+        "label": 0,
+        "patient_id": "H404"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_405.jpg",
+        "label": 0,
+        "patient_id": "H405"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_407.jpg",
+        "label": 0,
+        "patient_id": "H407"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_410.jpg",
+        "label": 0,
+        "patient_id": "H410"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_412.jpg",
+        "label": 0,
+        "patient_id": "H412"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_414.jpg",
+        "label": 0,
+        "patient_id": "H414"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_415.jpg",
+        "label": 0,
+        "patient_id": "H415"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_416.jpg",
+        "label": 0,
+        "patient_id": "H416"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_418.jpg",
+        "label": 0,
+        "patient_id": "H418"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_419.jpg",
+        "label": 0,
+        "patient_id": "H419"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_420.jpg",
+        "label": 0,
+        "patient_id": "H420"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_422.jpg",
+        "label": 0,
+        "patient_id": "H422"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_423.jpg",
+        "label": 0,
+        "patient_id": "H423"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_424.jpg",
+        "label": 0,
+        "patient_id": "H424"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_425.jpg",
+        "label": 0,
+        "patient_id": "H425"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_426.jpg",
+        "label": 0,
+        "patient_id": "H426"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_427.jpg",
+        "label": 0,
+        "patient_id": "H427"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_428.jpg",
+        "label": 0,
+        "patient_id": "H428"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_429.jpg",
+        "label": 0,
+        "patient_id": "H429"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_430.jpg",
+        "label": 0,
+        "patient_id": "H430"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_431.jpg",
+        "label": 0,
+        "patient_id": "H431"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_432.jpg",
+        "label": 0,
+        "patient_id": "H432"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_435.jpg",
+        "label": 0,
+        "patient_id": "H435"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_436.jpg",
+        "label": 0,
+        "patient_id": "H436"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_437.jpg",
+        "label": 0,
+        "patient_id": "H437"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_438.jpg",
+        "label": 0,
+        "patient_id": "H438"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_440.jpg",
+        "label": 0,
+        "patient_id": "H440"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_443.jpg",
+        "label": 0,
+        "patient_id": "H443"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_444.jpg",
+        "label": 0,
+        "patient_id": "H444"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_445.jpg",
+        "label": 0,
+        "patient_id": "H445"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_447.jpg",
+        "label": 0,
+        "patient_id": "H447"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_450.jpg",
+        "label": 0,
+        "patient_id": "H450"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_451.jpg",
+        "label": 0,
+        "patient_id": "H451"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_453.jpg",
+        "label": 0,
+        "patient_id": "H453"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_454.jpg",
+        "label": 0,
+        "patient_id": "H454"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_455.jpg",
+        "label": 0,
+        "patient_id": "H455"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_456.jpg",
+        "label": 0,
+        "patient_id": "H456"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_457.jpg",
+        "label": 0,
+        "patient_id": "H457"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_459.jpg",
+        "label": 0,
+        "patient_id": "H459"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_461.jpg",
+        "label": 0,
+        "patient_id": "H461"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_462.jpg",
+        "label": 0,
+        "patient_id": "H462"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_464.jpg",
+        "label": 0,
+        "patient_id": "H464"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_466.jpg",
+        "label": 0,
+        "patient_id": "H466"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_467.jpg",
+        "label": 0,
+        "patient_id": "H467"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_468.jpg",
+        "label": 0,
+        "patient_id": "H468"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_469.jpg",
+        "label": 0,
+        "patient_id": "H469"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_472.jpg",
+        "label": 0,
+        "patient_id": "H472"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_473.jpg",
+        "label": 0,
+        "patient_id": "H473"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_475.jpg",
+        "label": 0,
+        "patient_id": "H475"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_476.jpg",
+        "label": 0,
+        "patient_id": "H476"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_478.jpg",
+        "label": 0,
+        "patient_id": "H478"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_481.jpg",
+        "label": 0,
+        "patient_id": "H481"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_482.jpg",
+        "label": 0,
+        "patient_id": "H482"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_483.jpg",
+        "label": 0,
+        "patient_id": "H483"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_484.jpg",
+        "label": 0,
+        "patient_id": "H484"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_486.jpg",
+        "label": 0,
+        "patient_id": "H486"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_488.jpg",
+        "label": 0,
+        "patient_id": "H488"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_489.jpg",
+        "label": 0,
+        "patient_id": "H489"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_490.jpg",
+        "label": 0,
+        "patient_id": "H490"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_491.jpg",
+        "label": 0,
+        "patient_id": "H491"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_492.jpg",
+        "label": 0,
+        "patient_id": "H492"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_493.jpg",
+        "label": 0,
+        "patient_id": "H493"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_494.jpg",
+        "label": 0,
+        "patient_id": "H494"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_495.jpg",
+        "label": 0,
+        "patient_id": "H495"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_496.jpg",
+        "label": 0,
+        "patient_id": "H496"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_497.jpg",
+        "label": 0,
+        "patient_id": "H497"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_499.jpg",
+        "label": 0,
+        "patient_id": "H499"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_500.jpg",
+        "label": 0,
+        "patient_id": "H500"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_503.jpg",
+        "label": 0,
+        "patient_id": "H503"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_504.jpg",
+        "label": 0,
+        "patient_id": "H504"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_505.jpg",
+        "label": 0,
+        "patient_id": "H505"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_507.jpg",
+        "label": 0,
+        "patient_id": "H507"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_508.jpg",
+        "label": 0,
+        "patient_id": "H508"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_509.jpg",
+        "label": 0,
+        "patient_id": "H509"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_510.jpg",
+        "label": 0,
+        "patient_id": "H510"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_511.jpg",
+        "label": 0,
+        "patient_id": "H511"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_514.jpg",
+        "label": 0,
+        "patient_id": "H514"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_515.jpg",
+        "label": 0,
+        "patient_id": "H515"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_516.jpg",
+        "label": 0,
+        "patient_id": "H516"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_517.jpg",
+        "label": 0,
+        "patient_id": "H517"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_518.jpg",
+        "label": 0,
+        "patient_id": "H518"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_519.jpg",
+        "label": 0,
+        "patient_id": "H519"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_521.jpg",
+        "label": 0,
+        "patient_id": "H521"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_523.jpg",
+        "label": 0,
+        "patient_id": "H523"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_524.jpg",
+        "label": 0,
+        "patient_id": "H524"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_525.jpg",
+        "label": 0,
+        "patient_id": "H525"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_526.jpg",
+        "label": 0,
+        "patient_id": "H526"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_528.jpg",
+        "label": 0,
+        "patient_id": "H528"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_529.jpg",
+        "label": 0,
+        "patient_id": "H529"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_531.jpg",
+        "label": 0,
+        "patient_id": "H531"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_532.jpg",
+        "label": 0,
+        "patient_id": "H532"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_533.jpg",
+        "label": 0,
+        "patient_id": "H533"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_534.jpg",
+        "label": 0,
+        "patient_id": "H534"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_535.jpg",
+        "label": 0,
+        "patient_id": "H535"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_536.jpg",
+        "label": 0,
+        "patient_id": "H536"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_537.jpg",
+        "label": 0,
+        "patient_id": "H537"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_538.jpg",
+        "label": 0,
+        "patient_id": "H538"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_539.jpg",
+        "label": 0,
+        "patient_id": "H539"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_540.jpg",
+        "label": 0,
+        "patient_id": "H540"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_543.jpg",
+        "label": 0,
+        "patient_id": "H543"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_002.jpg",
+        "label": 1,
+        "patient_id": "U002"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_005.jpg",
+        "label": 1,
+        "patient_id": "U005"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_006.jpg",
+        "label": 1,
+        "patient_id": "U006"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_008.jpg",
+        "label": 1,
+        "patient_id": "U008"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_011.jpg",
+        "label": 1,
+        "patient_id": "U011"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_012.jpg",
+        "label": 1,
+        "patient_id": "U012"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_013.jpg",
+        "label": 1,
+        "patient_id": "U013"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_014.jpg",
+        "label": 1,
+        "patient_id": "U014"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_015.jpg",
+        "label": 1,
+        "patient_id": "U015"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_016.jpg",
+        "label": 1,
+        "patient_id": "U016"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_017.jpg",
+        "label": 1,
+        "patient_id": "U017"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_018.jpg",
+        "label": 1,
+        "patient_id": "U018"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_019.jpg",
+        "label": 1,
+        "patient_id": "U019"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_022.jpg",
+        "label": 1,
+        "patient_id": "U022"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_026.jpg",
+        "label": 1,
+        "patient_id": "U026"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_029.jpg",
+        "label": 1,
+        "patient_id": "U029"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_030.jpg",
+        "label": 1,
+        "patient_id": "U030"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_031.jpg",
+        "label": 1,
+        "patient_id": "U031"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_033.jpg",
+        "label": 1,
+        "patient_id": "U033"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_034.jpg",
+        "label": 1,
+        "patient_id": "U034"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_035.jpg",
+        "label": 1,
+        "patient_id": "U035"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_036.jpg",
+        "label": 1,
+        "patient_id": "U036"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_037.jpg",
+        "label": 1,
+        "patient_id": "U037"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_039.jpg",
+        "label": 1,
+        "patient_id": "U039"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_040.jpg",
+        "label": 1,
+        "patient_id": "U040"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_041.jpg",
+        "label": 1,
+        "patient_id": "U041"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_043.jpg",
+        "label": 1,
+        "patient_id": "U043"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_044.jpg",
+        "label": 1,
+        "patient_id": "U044"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_045.jpg",
+        "label": 1,
+        "patient_id": "U045"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_046.jpg",
+        "label": 1,
+        "patient_id": "U046"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_047.jpg",
+        "label": 1,
+        "patient_id": "U047"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_050.jpg",
+        "label": 1,
+        "patient_id": "U050"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_051.jpg",
+        "label": 1,
+        "patient_id": "U051"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_052.jpg",
+        "label": 1,
+        "patient_id": "U052"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_053.jpg",
+        "label": 1,
+        "patient_id": "U053"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_054.jpg",
+        "label": 1,
+        "patient_id": "U054"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_057.jpg",
+        "label": 1,
+        "patient_id": "U057"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_058.jpg",
+        "label": 1,
+        "patient_id": "U058"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_059.jpg",
+        "label": 1,
+        "patient_id": "U059"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_061.jpg",
+        "label": 1,
+        "patient_id": "U061"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_062.jpg",
+        "label": 1,
+        "patient_id": "U062"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_063.jpg",
+        "label": 1,
+        "patient_id": "U063"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_064.jpg",
+        "label": 1,
+        "patient_id": "U064"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_065.jpg",
+        "label": 1,
+        "patient_id": "U065"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_066.jpg",
+        "label": 1,
+        "patient_id": "U066"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_067.jpg",
+        "label": 1,
+        "patient_id": "U067"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_069.jpg",
+        "label": 1,
+        "patient_id": "U069"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_070.jpg",
+        "label": 1,
+        "patient_id": "U070"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_072.jpg",
+        "label": 1,
+        "patient_id": "U072"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_073.jpg",
+        "label": 1,
+        "patient_id": "U073"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_074.jpg",
+        "label": 1,
+        "patient_id": "U074"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_075.jpg",
+        "label": 1,
+        "patient_id": "U075"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_077.jpg",
+        "label": 1,
+        "patient_id": "U077"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_078.jpg",
+        "label": 1,
+        "patient_id": "U078"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_080.jpg",
+        "label": 1,
+        "patient_id": "U080"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_082.jpg",
+        "label": 1,
+        "patient_id": "U082"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_083.jpg",
+        "label": 1,
+        "patient_id": "U083"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_084.jpg",
+        "label": 1,
+        "patient_id": "U084"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_085.jpg",
+        "label": 1,
+        "patient_id": "U085"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_086.jpg",
+        "label": 1,
+        "patient_id": "U086"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_087.jpg",
+        "label": 1,
+        "patient_id": "U087"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_088.jpg",
+        "label": 1,
+        "patient_id": "U088"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_089.jpg",
+        "label": 1,
+        "patient_id": "U089"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_090.jpg",
+        "label": 1,
+        "patient_id": "U090"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_092.jpg",
+        "label": 1,
+        "patient_id": "U092"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_093.jpg",
+        "label": 1,
+        "patient_id": "U093"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_094.jpg",
+        "label": 1,
+        "patient_id": "U094"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_095.jpg",
+        "label": 1,
+        "patient_id": "U095"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_096.jpg",
+        "label": 1,
+        "patient_id": "U096"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_097.jpg",
+        "label": 1,
+        "patient_id": "U097"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_099.jpg",
+        "label": 1,
+        "patient_id": "U099"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_102.jpg",
+        "label": 1,
+        "patient_id": "U102"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_103.jpg",
+        "label": 1,
+        "patient_id": "U103"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_105.jpg",
+        "label": 1,
+        "patient_id": "U105"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_106.jpg",
+        "label": 1,
+        "patient_id": "U106"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_107.jpg",
+        "label": 1,
+        "patient_id": "U107"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_109.jpg",
+        "label": 1,
+        "patient_id": "U109"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_110.jpg",
+        "label": 1,
+        "patient_id": "U110"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_111.jpg",
+        "label": 1,
+        "patient_id": "U111"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_115.jpg",
+        "label": 1,
+        "patient_id": "U115"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_117.jpg",
+        "label": 1,
+        "patient_id": "U117"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_118.jpg",
+        "label": 1,
+        "patient_id": "U118"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_120.jpg",
+        "label": 1,
+        "patient_id": "U120"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_122.jpg",
+        "label": 1,
+        "patient_id": "U122"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_124.jpg",
+        "label": 1,
+        "patient_id": "U124"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_125.jpg",
+        "label": 1,
+        "patient_id": "U125"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_126.jpg",
+        "label": 1,
+        "patient_id": "U126"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_128.jpg",
+        "label": 1,
+        "patient_id": "U128"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_130.jpg",
+        "label": 1,
+        "patient_id": "U130"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_131.jpg",
+        "label": 1,
+        "patient_id": "U131"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_134.jpg",
+        "label": 1,
+        "patient_id": "U134"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_136.jpg",
+        "label": 1,
+        "patient_id": "U136"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_137.jpg",
+        "label": 1,
+        "patient_id": "U137"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_138.jpg",
+        "label": 1,
+        "patient_id": "U138"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_139.jpg",
+        "label": 1,
+        "patient_id": "U139"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_140.jpg",
+        "label": 1,
+        "patient_id": "U140"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_141.jpg",
+        "label": 1,
+        "patient_id": "U141"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_142.jpg",
+        "label": 1,
+        "patient_id": "U142"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_146.jpg",
+        "label": 1,
+        "patient_id": "U146"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_148.jpg",
+        "label": 1,
+        "patient_id": "U148"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_149.jpg",
+        "label": 1,
+        "patient_id": "U149"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_150.jpg",
+        "label": 1,
+        "patient_id": "U150"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_151.jpg",
+        "label": 1,
+        "patient_id": "U151"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_152.jpg",
+        "label": 1,
+        "patient_id": "U152"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_153.jpg",
+        "label": 1,
+        "patient_id": "U153"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_155.jpg",
+        "label": 1,
+        "patient_id": "U155"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_158.jpg",
+        "label": 1,
+        "patient_id": "U158"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_160.jpg",
+        "label": 1,
+        "patient_id": "U160"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_161.jpg",
+        "label": 1,
+        "patient_id": "U161"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_163.jpg",
+        "label": 1,
+        "patient_id": "U163"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_165.jpg",
+        "label": 1,
+        "patient_id": "U165"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_166.jpg",
+        "label": 1,
+        "patient_id": "U166"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_167.jpg",
+        "label": 1,
+        "patient_id": "U167"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_168.jpg",
+        "label": 1,
+        "patient_id": "U168"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_169.jpg",
+        "label": 1,
+        "patient_id": "U169"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_170.jpg",
+        "label": 1,
+        "patient_id": "U170"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_171.jpg",
+        "label": 1,
+        "patient_id": "U171"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_172.jpg",
+        "label": 1,
+        "patient_id": "U172"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_173.jpg",
+        "label": 1,
+        "patient_id": "U173"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_174.jpg",
+        "label": 1,
+        "patient_id": "U174"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_175.jpg",
+        "label": 1,
+        "patient_id": "U175"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_177.jpg",
+        "label": 1,
+        "patient_id": "U177"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_178.jpg",
+        "label": 1,
+        "patient_id": "U178"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_180.jpg",
+        "label": 1,
+        "patient_id": "U180"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_181.jpg",
+        "label": 1,
+        "patient_id": "U181"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_183.jpg",
+        "label": 1,
+        "patient_id": "U183"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_184.jpg",
+        "label": 1,
+        "patient_id": "U184"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_185.jpg",
+        "label": 1,
+        "patient_id": "U185"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_186.jpg",
+        "label": 1,
+        "patient_id": "U186"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_187.jpg",
+        "label": 1,
+        "patient_id": "U187"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_189.jpg",
+        "label": 1,
+        "patient_id": "U189"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_190.jpg",
+        "label": 1,
+        "patient_id": "U190"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_191.jpg",
+        "label": 1,
+        "patient_id": "U191"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_192.jpg",
+        "label": 1,
+        "patient_id": "U192"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_195.jpg",
+        "label": 1,
+        "patient_id": "U195"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_199.jpg",
+        "label": 1,
+        "patient_id": "U199"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_200.jpg",
+        "label": 1,
+        "patient_id": "U200"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_201.jpg",
+        "label": 1,
+        "patient_id": "U201"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_202.jpg",
+        "label": 1,
+        "patient_id": "U202"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_206.jpg",
+        "label": 1,
+        "patient_id": "U206"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_208.jpg",
+        "label": 1,
+        "patient_id": "U208"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_209.jpg",
+        "label": 1,
+        "patient_id": "U209"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_210.jpg",
+        "label": 1,
+        "patient_id": "U210"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_211.jpg",
+        "label": 1,
+        "patient_id": "U211"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_212.jpg",
+        "label": 1,
+        "patient_id": "U212"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_213.jpg",
+        "label": 1,
+        "patient_id": "U213"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_214.jpg",
+        "label": 1,
+        "patient_id": "U214"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_215.jpg",
+        "label": 1,
+        "patient_id": "U215"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_216.jpg",
+        "label": 1,
+        "patient_id": "U216"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_217.jpg",
+        "label": 1,
+        "patient_id": "U217"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_218.jpg",
+        "label": 1,
+        "patient_id": "U218"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_219.jpg",
+        "label": 1,
+        "patient_id": "U219"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_221.jpg",
+        "label": 1,
+        "patient_id": "U221"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_223.jpg",
+        "label": 1,
+        "patient_id": "U223"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_225.jpg",
+        "label": 1,
+        "patient_id": "U225"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_227.jpg",
+        "label": 1,
+        "patient_id": "U227"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_229.jpg",
+        "label": 1,
+        "patient_id": "U229"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_230.jpg",
+        "label": 1,
+        "patient_id": "U230"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_232.jpg",
+        "label": 1,
+        "patient_id": "U232"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_233.jpg",
+        "label": 1,
+        "patient_id": "U233"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_234.jpg",
+        "label": 1,
+        "patient_id": "U234"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_235.jpg",
+        "label": 1,
+        "patient_id": "U235"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_239.jpg",
+        "label": 1,
+        "patient_id": "U239"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_240.jpg",
+        "label": 1,
+        "patient_id": "U240"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_241.jpg",
+        "label": 1,
+        "patient_id": "U241"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_243.jpg",
+        "label": 1,
+        "patient_id": "U243"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_246.jpg",
+        "label": 1,
+        "patient_id": "U246"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_247.jpg",
+        "label": 1,
+        "patient_id": "U247"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_250.jpg",
+        "label": 1,
+        "patient_id": "U250"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_251.jpg",
+        "label": 1,
+        "patient_id": "U251"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_253.jpg",
+        "label": 1,
+        "patient_id": "U253"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_256.jpg",
+        "label": 1,
+        "patient_id": "U256"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_257.jpg",
+        "label": 1,
+        "patient_id": "U257"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_258.jpg",
+        "label": 1,
+        "patient_id": "U258"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_259.jpg",
+        "label": 1,
+        "patient_id": "U259"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_260.jpg",
+        "label": 1,
+        "patient_id": "U260"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_261.jpg",
+        "label": 1,
+        "patient_id": "U261"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_262.jpg",
+        "label": 1,
+        "patient_id": "U262"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_263.jpg",
+        "label": 1,
+        "patient_id": "U263"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_264.jpg",
+        "label": 1,
+        "patient_id": "U264"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_265.jpg",
+        "label": 1,
+        "patient_id": "U265"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_266.jpg",
+        "label": 1,
+        "patient_id": "U266"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_267.jpg",
+        "label": 1,
+        "patient_id": "U267"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_268.jpg",
+        "label": 1,
+        "patient_id": "U268"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_270.jpg",
+        "label": 1,
+        "patient_id": "U270"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_271.jpg",
+        "label": 1,
+        "patient_id": "U271"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_272.jpg",
+        "label": 1,
+        "patient_id": "U272"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_273.jpg",
+        "label": 1,
+        "patient_id": "U273"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_275.jpg",
+        "label": 1,
+        "patient_id": "U275"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_277.jpg",
+        "label": 1,
+        "patient_id": "U277"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_278.jpg",
+        "label": 1,
+        "patient_id": "U278"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_279.jpg",
+        "label": 1,
+        "patient_id": "U279"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_280.jpg",
+        "label": 1,
+        "patient_id": "U280"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_281.jpg",
+        "label": 1,
+        "patient_id": "U281"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_283.jpg",
+        "label": 1,
+        "patient_id": "U283"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_285.jpg",
+        "label": 1,
+        "patient_id": "U285"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_286.jpg",
+        "label": 1,
+        "patient_id": "U286"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_287.jpg",
+        "label": 1,
+        "patient_id": "U287"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_288.jpg",
+        "label": 1,
+        "patient_id": "U288"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_289.jpg",
+        "label": 1,
+        "patient_id": "U289"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_291.jpg",
+        "label": 1,
+        "patient_id": "U291"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_292.jpg",
+        "label": 1,
+        "patient_id": "U292"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_293.jpg",
+        "label": 1,
+        "patient_id": "U293"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_294.jpg",
+        "label": 1,
+        "patient_id": "U294"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_295.jpg",
+        "label": 1,
+        "patient_id": "U295"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_296.jpg",
+        "label": 1,
+        "patient_id": "U296"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_297.jpg",
+        "label": 1,
+        "patient_id": "U297"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_298.jpg",
+        "label": 1,
+        "patient_id": "U298"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_300.jpg",
+        "label": 1,
+        "patient_id": "U300"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_301.jpg",
+        "label": 1,
+        "patient_id": "U301"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_302.jpg",
+        "label": 1,
+        "patient_id": "U302"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_303.jpg",
+        "label": 1,
+        "patient_id": "U303"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_304.jpg",
+        "label": 1,
+        "patient_id": "U304"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_305.jpg",
+        "label": 1,
+        "patient_id": "U305"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_306.jpg",
+        "label": 1,
+        "patient_id": "U306"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_308.jpg",
+        "label": 1,
+        "patient_id": "U308"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_310.jpg",
+        "label": 1,
+        "patient_id": "U310"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_311.jpg",
+        "label": 1,
+        "patient_id": "U311"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_313.jpg",
+        "label": 1,
+        "patient_id": "U313"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_314.jpg",
+        "label": 1,
+        "patient_id": "U314"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_315.jpg",
+        "label": 1,
+        "patient_id": "U315"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_316.jpg",
+        "label": 1,
+        "patient_id": "U316"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_318.jpg",
+        "label": 1,
+        "patient_id": "U318"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_319.jpg",
+        "label": 1,
+        "patient_id": "U319"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_320.jpg",
+        "label": 1,
+        "patient_id": "U320"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_324.jpg",
+        "label": 1,
+        "patient_id": "U324"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_326.jpg",
+        "label": 1,
+        "patient_id": "U326"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_327.jpg",
+        "label": 1,
+        "patient_id": "U327"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_328.jpg",
+        "label": 1,
+        "patient_id": "U328"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_329.jpg",
+        "label": 1,
+        "patient_id": "U329"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_330.jpg",
+        "label": 1,
+        "patient_id": "U330"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_331.jpg",
+        "label": 1,
+        "patient_id": "U331"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_332.jpg",
+        "label": 1,
+        "patient_id": "U332"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_334.jpg",
+        "label": 1,
+        "patient_id": "U334"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_335.jpg",
+        "label": 1,
+        "patient_id": "U335"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_336.jpg",
+        "label": 1,
+        "patient_id": "U336"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_337.jpg",
+        "label": 1,
+        "patient_id": "U337"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_338.jpg",
+        "label": 1,
+        "patient_id": "U338"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_341.jpg",
+        "label": 1,
+        "patient_id": "U341"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_342.jpg",
+        "label": 1,
+        "patient_id": "U342"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_343.jpg",
+        "label": 1,
+        "patient_id": "U343"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_344.jpg",
+        "label": 1,
+        "patient_id": "U344"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_346.jpg",
+        "label": 1,
+        "patient_id": "U346"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_347.jpg",
+        "label": 1,
+        "patient_id": "U347"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_348.jpg",
+        "label": 1,
+        "patient_id": "U348"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_349.jpg",
+        "label": 1,
+        "patient_id": "U349"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_350.jpg",
+        "label": 1,
+        "patient_id": "U350"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_351.jpg",
+        "label": 1,
+        "patient_id": "U351"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_352.jpg",
+        "label": 1,
+        "patient_id": "U352"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_357.jpg",
+        "label": 1,
+        "patient_id": "U357"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_358.jpg",
+        "label": 1,
+        "patient_id": "U358"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_359.jpg",
+        "label": 1,
+        "patient_id": "U359"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_361.jpg",
+        "label": 1,
+        "patient_id": "U361"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_365.jpg",
+        "label": 1,
+        "patient_id": "U365"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_366.jpg",
+        "label": 1,
+        "patient_id": "U366"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_367.jpg",
+        "label": 1,
+        "patient_id": "U367"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_368.jpg",
+        "label": 1,
+        "patient_id": "U368"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_369.jpg",
+        "label": 1,
+        "patient_id": "U369"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_370.jpg",
+        "label": 1,
+        "patient_id": "U370"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_372.jpg",
+        "label": 1,
+        "patient_id": "U372"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_373.jpg",
+        "label": 1,
+        "patient_id": "U373"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_374.jpg",
+        "label": 1,
+        "patient_id": "U374"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_375.jpg",
+        "label": 1,
+        "patient_id": "U375"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_378.jpg",
+        "label": 1,
+        "patient_id": "U378"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_379.jpg",
+        "label": 1,
+        "patient_id": "U379"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_380.jpg",
+        "label": 1,
+        "patient_id": "U380"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_381.jpg",
+        "label": 1,
+        "patient_id": "U381"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_383.jpg",
+        "label": 1,
+        "patient_id": "U383"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_384.jpg",
+        "label": 1,
+        "patient_id": "U384"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_385.jpg",
+        "label": 1,
+        "patient_id": "U385"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_386.jpg",
+        "label": 1,
+        "patient_id": "U386"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_387.jpg",
+        "label": 1,
+        "patient_id": "U387"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_388.jpg",
+        "label": 1,
+        "patient_id": "U388"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_389.jpg",
+        "label": 1,
+        "patient_id": "U389"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_390.jpg",
+        "label": 1,
+        "patient_id": "U390"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_391.jpg",
+        "label": 1,
+        "patient_id": "U391"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_392.jpg",
+        "label": 1,
+        "patient_id": "U392"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_397.jpg",
+        "label": 1,
+        "patient_id": "U397"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_398.jpg",
+        "label": 1,
+        "patient_id": "U398"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_399.jpg",
+        "label": 1,
+        "patient_id": "U399"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_400.jpg",
+        "label": 1,
+        "patient_id": "U400"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_401.jpg",
+        "label": 1,
+        "patient_id": "U401"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_403.jpg",
+        "label": 1,
+        "patient_id": "U403"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_406.jpg",
+        "label": 1,
+        "patient_id": "U406"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_407.jpg",
+        "label": 1,
+        "patient_id": "U407"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_409.jpg",
+        "label": 1,
+        "patient_id": "U409"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_410.jpg",
+        "label": 1,
+        "patient_id": "U410"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_412.jpg",
+        "label": 1,
+        "patient_id": "U412"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_413.jpg",
+        "label": 1,
+        "patient_id": "U413"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_414.jpg",
+        "label": 1,
+        "patient_id": "U414"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_415.jpg",
+        "label": 1,
+        "patient_id": "U415"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_416.jpg",
+        "label": 1,
+        "patient_id": "U416"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_418.jpg",
+        "label": 1,
+        "patient_id": "U418"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_419.jpg",
+        "label": 1,
+        "patient_id": "U419"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_420.jpg",
+        "label": 1,
+        "patient_id": "U420"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_422.jpg",
+        "label": 1,
+        "patient_id": "U422"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_423.jpg",
+        "label": 1,
+        "patient_id": "U423"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_424.jpg",
+        "label": 1,
+        "patient_id": "U424"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_426.jpg",
+        "label": 1,
+        "patient_id": "U426"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_427.jpg",
+        "label": 1,
+        "patient_id": "U427"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_428.jpg",
+        "label": 1,
+        "patient_id": "U428"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_429.jpg",
+        "label": 1,
+        "patient_id": "U429"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_430.jpg",
+        "label": 1,
+        "patient_id": "U430"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_432.jpg",
+        "label": 1,
+        "patient_id": "U432"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_433.jpg",
+        "label": 1,
+        "patient_id": "U433"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_434.jpg",
+        "label": 1,
+        "patient_id": "U434"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_435.jpg",
+        "label": 1,
+        "patient_id": "U435"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_436.jpg",
+        "label": 1,
+        "patient_id": "U436"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_437.jpg",
+        "label": 1,
+        "patient_id": "U437"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_441.jpg",
+        "label": 1,
+        "patient_id": "U441"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_442.jpg",
+        "label": 1,
+        "patient_id": "U442"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_443.jpg",
+        "label": 1,
+        "patient_id": "U443"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_445.jpg",
+        "label": 1,
+        "patient_id": "U445"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_447.jpg",
+        "label": 1,
+        "patient_id": "U447"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_448.jpg",
+        "label": 1,
+        "patient_id": "U448"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_449.jpg",
+        "label": 1,
+        "patient_id": "U449"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_450.jpg",
+        "label": 1,
+        "patient_id": "U450"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_451.jpg",
+        "label": 1,
+        "patient_id": "U451"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_452.jpg",
+        "label": 1,
+        "patient_id": "U452"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_453.jpg",
+        "label": 1,
+        "patient_id": "U453"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_456.jpg",
+        "label": 1,
+        "patient_id": "U456"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_458.jpg",
+        "label": 1,
+        "patient_id": "U458"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_460.jpg",
+        "label": 1,
+        "patient_id": "U460"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_461.jpg",
+        "label": 1,
+        "patient_id": "U461"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_462.jpg",
+        "label": 1,
+        "patient_id": "U462"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_464.jpg",
+        "label": 1,
+        "patient_id": "U464"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_466.jpg",
+        "label": 1,
+        "patient_id": "U466"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_468.jpg",
+        "label": 1,
+        "patient_id": "U468"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_469.jpg",
+        "label": 1,
+        "patient_id": "U469"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_471.jpg",
+        "label": 1,
+        "patient_id": "U471"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_473.jpg",
+        "label": 1,
+        "patient_id": "U473"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_475.jpg",
+        "label": 1,
+        "patient_id": "U475"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_476.jpg",
+        "label": 1,
+        "patient_id": "U476"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_477.jpg",
+        "label": 1,
+        "patient_id": "U477"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_478.jpg",
+        "label": 1,
+        "patient_id": "U478"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_479.jpg",
+        "label": 1,
+        "patient_id": "U479"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_482.jpg",
+        "label": 1,
+        "patient_id": "U482"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_483.jpg",
+        "label": 1,
+        "patient_id": "U483"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_485.jpg",
+        "label": 1,
+        "patient_id": "U485"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_486.jpg",
+        "label": 1,
+        "patient_id": "U486"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_487.jpg",
+        "label": 1,
+        "patient_id": "U487"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_490.jpg",
+        "label": 1,
+        "patient_id": "U490"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_491.jpg",
+        "label": 1,
+        "patient_id": "U491"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_493.jpg",
+        "label": 1,
+        "patient_id": "U493"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_494.jpg",
+        "label": 1,
+        "patient_id": "U494"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_495.jpg",
+        "label": 1,
+        "patient_id": "U495"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_496.jpg",
+        "label": 1,
+        "patient_id": "U496"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_497.jpg",
+        "label": 1,
+        "patient_id": "U497"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_499.jpg",
+        "label": 1,
+        "patient_id": "U499"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_500.jpg",
+        "label": 1,
+        "patient_id": "U500"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_501.jpg",
+        "label": 1,
+        "patient_id": "U501"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_502.jpg",
+        "label": 1,
+        "patient_id": "U502"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_504.jpg",
+        "label": 1,
+        "patient_id": "U504"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_505.jpg",
+        "label": 1,
+        "patient_id": "U505"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_508.jpg",
+        "label": 1,
+        "patient_id": "U508"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_509.jpg",
+        "label": 1,
+        "patient_id": "U509"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_510.jpg",
+        "label": 1,
+        "patient_id": "U510"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_511.jpg",
+        "label": 1,
+        "patient_id": "U511"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_512.jpg",
+        "label": 1,
+        "patient_id": "U512"
+      }
+    ],
+    "val": [
+      {
+        "image_path": "data/raw/images/healthy/healthy_001.jpg",
+        "label": 0,
+        "patient_id": "H001"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_004.jpg",
+        "label": 0,
+        "patient_id": "H004"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_008.jpg",
+        "label": 0,
+        "patient_id": "H008"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_012.jpg",
+        "label": 0,
+        "patient_id": "H012"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_020.jpg",
+        "label": 0,
+        "patient_id": "H020"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_022.jpg",
+        "label": 0,
+        "patient_id": "H022"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_056.jpg",
+        "label": 0,
+        "patient_id": "H056"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_060.jpg",
+        "label": 0,
+        "patient_id": "H060"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_061.jpg",
+        "label": 0,
+        "patient_id": "H061"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_063.jpg",
+        "label": 0,
+        "patient_id": "H063"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_070.jpg",
+        "label": 0,
+        "patient_id": "H070"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_071.jpg",
+        "label": 0,
+        "patient_id": "H071"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_073.jpg",
+        "label": 0,
+        "patient_id": "H073"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_088.jpg",
+        "label": 0,
+        "patient_id": "H088"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_097.jpg",
+        "label": 0,
+        "patient_id": "H097"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_101.jpg",
+        "label": 0,
+        "patient_id": "H101"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_109.jpg",
+        "label": 0,
+        "patient_id": "H109"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_112.jpg",
+        "label": 0,
+        "patient_id": "H112"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_115.jpg",
+        "label": 0,
+        "patient_id": "H115"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_118.jpg",
+        "label": 0,
+        "patient_id": "H118"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_124.jpg",
+        "label": 0,
+        "patient_id": "H124"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_129.jpg",
+        "label": 0,
+        "patient_id": "H129"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_132.jpg",
+        "label": 0,
+        "patient_id": "H132"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_136.jpg",
+        "label": 0,
+        "patient_id": "H136"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_144.jpg",
+        "label": 0,
+        "patient_id": "H144"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_162.jpg",
+        "label": 0,
+        "patient_id": "H162"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_166.jpg",
+        "label": 0,
+        "patient_id": "H166"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_170.jpg",
+        "label": 0,
+        "patient_id": "H170"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_183.jpg",
+        "label": 0,
+        "patient_id": "H183"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_188.jpg",
+        "label": 0,
+        "patient_id": "H188"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_195.jpg",
+        "label": 0,
+        "patient_id": "H195"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_204.jpg",
+        "label": 0,
+        "patient_id": "H204"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_206.jpg",
+        "label": 0,
+        "patient_id": "H206"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_220.jpg",
+        "label": 0,
+        "patient_id": "H220"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_226.jpg",
+        "label": 0,
+        "patient_id": "H226"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_231.jpg",
+        "label": 0,
+        "patient_id": "H231"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_236.jpg",
+        "label": 0,
+        "patient_id": "H236"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_244.jpg",
+        "label": 0,
+        "patient_id": "H244"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_246.jpg",
+        "label": 0,
+        "patient_id": "H246"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_247.jpg",
+        "label": 0,
+        "patient_id": "H247"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_249.jpg",
+        "label": 0,
+        "patient_id": "H249"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_254.jpg",
+        "label": 0,
+        "patient_id": "H254"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_255.jpg",
+        "label": 0,
+        "patient_id": "H255"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_258.jpg",
+        "label": 0,
+        "patient_id": "H258"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_306.jpg",
+        "label": 0,
+        "patient_id": "H306"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_315.jpg",
+        "label": 0,
+        "patient_id": "H315"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_320.jpg",
+        "label": 0,
+        "patient_id": "H320"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_332.jpg",
+        "label": 0,
+        "patient_id": "H332"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_339.jpg",
+        "label": 0,
+        "patient_id": "H339"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_347.jpg",
+        "label": 0,
+        "patient_id": "H347"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_348.jpg",
+        "label": 0,
+        "patient_id": "H348"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_349.jpg",
+        "label": 0,
+        "patient_id": "H349"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_363.jpg",
+        "label": 0,
+        "patient_id": "H363"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_372.jpg",
+        "label": 0,
+        "patient_id": "H372"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_383.jpg",
+        "label": 0,
+        "patient_id": "H383"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_391.jpg",
+        "label": 0,
+        "patient_id": "H391"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_395.jpg",
+        "label": 0,
+        "patient_id": "H395"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_413.jpg",
+        "label": 0,
+        "patient_id": "H413"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_417.jpg",
+        "label": 0,
+        "patient_id": "H417"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_421.jpg",
+        "label": 0,
+        "patient_id": "H421"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_434.jpg",
+        "label": 0,
+        "patient_id": "H434"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_442.jpg",
+        "label": 0,
+        "patient_id": "H442"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_446.jpg",
+        "label": 0,
+        "patient_id": "H446"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_449.jpg",
+        "label": 0,
+        "patient_id": "H449"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_460.jpg",
+        "label": 0,
+        "patient_id": "H460"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_463.jpg",
+        "label": 0,
+        "patient_id": "H463"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_479.jpg",
+        "label": 0,
+        "patient_id": "H479"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_480.jpg",
+        "label": 0,
+        "patient_id": "H480"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_485.jpg",
+        "label": 0,
+        "patient_id": "H485"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_487.jpg",
+        "label": 0,
+        "patient_id": "H487"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_498.jpg",
+        "label": 0,
+        "patient_id": "H498"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_501.jpg",
+        "label": 0,
+        "patient_id": "H501"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_513.jpg",
+        "label": 0,
+        "patient_id": "H513"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_520.jpg",
+        "label": 0,
+        "patient_id": "H520"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_527.jpg",
+        "label": 0,
+        "patient_id": "H527"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_530.jpg",
+        "label": 0,
+        "patient_id": "H530"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_541.jpg",
+        "label": 0,
+        "patient_id": "H541"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_542.jpg",
+        "label": 0,
+        "patient_id": "H542"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_001.jpg",
+        "label": 1,
+        "patient_id": "U001"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_003.jpg",
+        "label": 1,
+        "patient_id": "U003"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_010.jpg",
+        "label": 1,
+        "patient_id": "U010"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_020.jpg",
+        "label": 1,
+        "patient_id": "U020"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_024.jpg",
+        "label": 1,
+        "patient_id": "U024"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_025.jpg",
+        "label": 1,
+        "patient_id": "U025"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_042.jpg",
+        "label": 1,
+        "patient_id": "U042"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_048.jpg",
+        "label": 1,
+        "patient_id": "U048"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_060.jpg",
+        "label": 1,
+        "patient_id": "U060"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_071.jpg",
+        "label": 1,
+        "patient_id": "U071"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_079.jpg",
+        "label": 1,
+        "patient_id": "U079"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_098.jpg",
+        "label": 1,
+        "patient_id": "U098"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_104.jpg",
+        "label": 1,
+        "patient_id": "U104"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_112.jpg",
+        "label": 1,
+        "patient_id": "U112"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_114.jpg",
+        "label": 1,
+        "patient_id": "U114"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_119.jpg",
+        "label": 1,
+        "patient_id": "U119"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_123.jpg",
+        "label": 1,
+        "patient_id": "U123"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_127.jpg",
+        "label": 1,
+        "patient_id": "U127"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_132.jpg",
+        "label": 1,
+        "patient_id": "U132"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_133.jpg",
+        "label": 1,
+        "patient_id": "U133"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_143.jpg",
+        "label": 1,
+        "patient_id": "U143"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_145.jpg",
+        "label": 1,
+        "patient_id": "U145"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_156.jpg",
+        "label": 1,
+        "patient_id": "U156"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_164.jpg",
+        "label": 1,
+        "patient_id": "U164"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_182.jpg",
+        "label": 1,
+        "patient_id": "U182"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_188.jpg",
+        "label": 1,
+        "patient_id": "U188"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_194.jpg",
+        "label": 1,
+        "patient_id": "U194"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_196.jpg",
+        "label": 1,
+        "patient_id": "U196"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_197.jpg",
+        "label": 1,
+        "patient_id": "U197"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_198.jpg",
+        "label": 1,
+        "patient_id": "U198"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_203.jpg",
+        "label": 1,
+        "patient_id": "U203"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_207.jpg",
+        "label": 1,
+        "patient_id": "U207"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_224.jpg",
+        "label": 1,
+        "patient_id": "U224"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_226.jpg",
+        "label": 1,
+        "patient_id": "U226"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_228.jpg",
+        "label": 1,
+        "patient_id": "U228"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_237.jpg",
+        "label": 1,
+        "patient_id": "U237"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_238.jpg",
+        "label": 1,
+        "patient_id": "U238"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_242.jpg",
+        "label": 1,
+        "patient_id": "U242"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_245.jpg",
+        "label": 1,
+        "patient_id": "U245"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_248.jpg",
+        "label": 1,
+        "patient_id": "U248"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_254.jpg",
+        "label": 1,
+        "patient_id": "U254"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_255.jpg",
+        "label": 1,
+        "patient_id": "U255"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_274.jpg",
+        "label": 1,
+        "patient_id": "U274"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_276.jpg",
+        "label": 1,
+        "patient_id": "U276"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_290.jpg",
+        "label": 1,
+        "patient_id": "U290"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_309.jpg",
+        "label": 1,
+        "patient_id": "U309"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_353.jpg",
+        "label": 1,
+        "patient_id": "U353"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_354.jpg",
+        "label": 1,
+        "patient_id": "U354"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_356.jpg",
+        "label": 1,
+        "patient_id": "U356"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_360.jpg",
+        "label": 1,
+        "patient_id": "U360"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_362.jpg",
+        "label": 1,
+        "patient_id": "U362"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_371.jpg",
+        "label": 1,
+        "patient_id": "U371"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_376.jpg",
+        "label": 1,
+        "patient_id": "U376"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_382.jpg",
+        "label": 1,
+        "patient_id": "U382"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_394.jpg",
+        "label": 1,
+        "patient_id": "U394"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_395.jpg",
+        "label": 1,
+        "patient_id": "U395"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_396.jpg",
+        "label": 1,
+        "patient_id": "U396"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_404.jpg",
+        "label": 1,
+        "patient_id": "U404"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_408.jpg",
+        "label": 1,
+        "patient_id": "U408"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_421.jpg",
+        "label": 1,
+        "patient_id": "U421"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_425.jpg",
+        "label": 1,
+        "patient_id": "U425"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_431.jpg",
+        "label": 1,
+        "patient_id": "U431"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_438.jpg",
+        "label": 1,
+        "patient_id": "U438"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_440.jpg",
+        "label": 1,
+        "patient_id": "U440"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_444.jpg",
+        "label": 1,
+        "patient_id": "U444"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_446.jpg",
+        "label": 1,
+        "patient_id": "U446"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_455.jpg",
+        "label": 1,
+        "patient_id": "U455"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_459.jpg",
+        "label": 1,
+        "patient_id": "U459"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_463.jpg",
+        "label": 1,
+        "patient_id": "U463"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_465.jpg",
+        "label": 1,
+        "patient_id": "U465"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_467.jpg",
+        "label": 1,
+        "patient_id": "U467"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_470.jpg",
+        "label": 1,
+        "patient_id": "U470"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_472.jpg",
+        "label": 1,
+        "patient_id": "U472"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_474.jpg",
+        "label": 1,
+        "patient_id": "U474"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_480.jpg",
+        "label": 1,
+        "patient_id": "U480"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_481.jpg",
+        "label": 1,
+        "patient_id": "U481"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_484.jpg",
+        "label": 1,
+        "patient_id": "U484"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_489.jpg",
+        "label": 1,
+        "patient_id": "U489"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_503.jpg",
+        "label": 1,
+        "patient_id": "U503"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_507.jpg",
+        "label": 1,
+        "patient_id": "U507"
+      }
+    ],
+    "test": [
+      {
+        "image_path": "data/raw/images/healthy/healthy_014.jpg",
+        "label": 0,
+        "patient_id": "H014"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_033.jpg",
+        "label": 0,
+        "patient_id": "H033"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_045.jpg",
+        "label": 0,
+        "patient_id": "H045"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_047.jpg",
+        "label": 0,
+        "patient_id": "H047"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_049.jpg",
+        "label": 0,
+        "patient_id": "H049"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_052.jpg",
+        "label": 0,
+        "patient_id": "H052"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_055.jpg",
+        "label": 0,
+        "patient_id": "H055"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_058.jpg",
+        "label": 0,
+        "patient_id": "H058"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_062.jpg",
+        "label": 0,
+        "patient_id": "H062"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_066.jpg",
+        "label": 0,
+        "patient_id": "H066"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_068.jpg",
+        "label": 0,
+        "patient_id": "H068"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_072.jpg",
+        "label": 0,
+        "patient_id": "H072"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_074.jpg",
+        "label": 0,
+        "patient_id": "H074"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_081.jpg",
+        "label": 0,
+        "patient_id": "H081"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_082.jpg",
+        "label": 0,
+        "patient_id": "H082"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_094.jpg",
+        "label": 0,
+        "patient_id": "H094"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_100.jpg",
+        "label": 0,
+        "patient_id": "H100"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_104.jpg",
+        "label": 0,
+        "patient_id": "H104"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_113.jpg",
+        "label": 0,
+        "patient_id": "H113"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_128.jpg",
+        "label": 0,
+        "patient_id": "H128"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_142.jpg",
+        "label": 0,
+        "patient_id": "H142"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_143.jpg",
+        "label": 0,
+        "patient_id": "H143"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_147.jpg",
+        "label": 0,
+        "patient_id": "H147"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_157.jpg",
+        "label": 0,
+        "patient_id": "H157"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_164.jpg",
+        "label": 0,
+        "patient_id": "H164"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_167.jpg",
+        "label": 0,
+        "patient_id": "H167"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_168.jpg",
+        "label": 0,
+        "patient_id": "H168"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_176.jpg",
+        "label": 0,
+        "patient_id": "H176"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_179.jpg",
+        "label": 0,
+        "patient_id": "H179"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_190.jpg",
+        "label": 0,
+        "patient_id": "H190"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_192.jpg",
+        "label": 0,
+        "patient_id": "H192"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_197.jpg",
+        "label": 0,
+        "patient_id": "H197"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_210.jpg",
+        "label": 0,
+        "patient_id": "H210"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_215.jpg",
+        "label": 0,
+        "patient_id": "H215"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_217.jpg",
+        "label": 0,
+        "patient_id": "H217"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_218.jpg",
+        "label": 0,
+        "patient_id": "H218"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_225.jpg",
+        "label": 0,
+        "patient_id": "H225"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_229.jpg",
+        "label": 0,
+        "patient_id": "H229"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_234.jpg",
+        "label": 0,
+        "patient_id": "H234"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_235.jpg",
+        "label": 0,
+        "patient_id": "H235"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_239.jpg",
+        "label": 0,
+        "patient_id": "H239"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_251.jpg",
+        "label": 0,
+        "patient_id": "H251"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_253.jpg",
+        "label": 0,
+        "patient_id": "H253"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_270.jpg",
+        "label": 0,
+        "patient_id": "H270"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_271.jpg",
+        "label": 0,
+        "patient_id": "H271"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_272.jpg",
+        "label": 0,
+        "patient_id": "H272"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_274.jpg",
+        "label": 0,
+        "patient_id": "H274"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_275.jpg",
+        "label": 0,
+        "patient_id": "H275"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_277.jpg",
+        "label": 0,
+        "patient_id": "H277"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_285.jpg",
+        "label": 0,
+        "patient_id": "H285"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_286.jpg",
+        "label": 0,
+        "patient_id": "H286"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_297.jpg",
+        "label": 0,
+        "patient_id": "H297"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_301.jpg",
+        "label": 0,
+        "patient_id": "H301"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_319.jpg",
+        "label": 0,
+        "patient_id": "H319"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_323.jpg",
+        "label": 0,
+        "patient_id": "H323"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_324.jpg",
+        "label": 0,
+        "patient_id": "H324"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_327.jpg",
+        "label": 0,
+        "patient_id": "H327"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_333.jpg",
+        "label": 0,
+        "patient_id": "H333"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_353.jpg",
+        "label": 0,
+        "patient_id": "H353"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_364.jpg",
+        "label": 0,
+        "patient_id": "H364"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_368.jpg",
+        "label": 0,
+        "patient_id": "H368"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_371.jpg",
+        "label": 0,
+        "patient_id": "H371"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_374.jpg",
+        "label": 0,
+        "patient_id": "H374"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_380.jpg",
+        "label": 0,
+        "patient_id": "H380"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_388.jpg",
+        "label": 0,
+        "patient_id": "H388"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_389.jpg",
+        "label": 0,
+        "patient_id": "H389"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_390.jpg",
+        "label": 0,
+        "patient_id": "H390"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_406.jpg",
+        "label": 0,
+        "patient_id": "H406"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_408.jpg",
+        "label": 0,
+        "patient_id": "H408"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_409.jpg",
+        "label": 0,
+        "patient_id": "H409"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_411.jpg",
+        "label": 0,
+        "patient_id": "H411"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_433.jpg",
+        "label": 0,
+        "patient_id": "H433"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_439.jpg",
+        "label": 0,
+        "patient_id": "H439"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_441.jpg",
+        "label": 0,
+        "patient_id": "H441"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_448.jpg",
+        "label": 0,
+        "patient_id": "H448"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_452.jpg",
+        "label": 0,
+        "patient_id": "H452"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_458.jpg",
+        "label": 0,
+        "patient_id": "H458"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_465.jpg",
+        "label": 0,
+        "patient_id": "H465"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_470.jpg",
+        "label": 0,
+        "patient_id": "H470"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_471.jpg",
+        "label": 0,
+        "patient_id": "H471"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_474.jpg",
+        "label": 0,
+        "patient_id": "H474"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_477.jpg",
+        "label": 0,
+        "patient_id": "H477"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_502.jpg",
+        "label": 0,
+        "patient_id": "H502"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_506.jpg",
+        "label": 0,
+        "patient_id": "H506"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_512.jpg",
+        "label": 0,
+        "patient_id": "H512"
+      },
+      {
+        "image_path": "data/raw/images/healthy/healthy_522.jpg",
+        "label": 0,
+        "patient_id": "H522"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_004.jpg",
+        "label": 1,
+        "patient_id": "U004"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_007.jpg",
+        "label": 1,
+        "patient_id": "U007"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_009.jpg",
+        "label": 1,
+        "patient_id": "U009"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_021.jpg",
+        "label": 1,
+        "patient_id": "U021"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_023.jpg",
+        "label": 1,
+        "patient_id": "U023"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_027.jpg",
+        "label": 1,
+        "patient_id": "U027"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_028.jpg",
+        "label": 1,
+        "patient_id": "U028"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_032.jpg",
+        "label": 1,
+        "patient_id": "U032"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_038.jpg",
+        "label": 1,
+        "patient_id": "U038"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_049.jpg",
+        "label": 1,
+        "patient_id": "U049"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_055.jpg",
+        "label": 1,
+        "patient_id": "U055"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_056.jpg",
+        "label": 1,
+        "patient_id": "U056"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_068.jpg",
+        "label": 1,
+        "patient_id": "U068"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_076.jpg",
+        "label": 1,
+        "patient_id": "U076"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_081.jpg",
+        "label": 1,
+        "patient_id": "U081"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_091.jpg",
+        "label": 1,
+        "patient_id": "U091"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_100.jpg",
+        "label": 1,
+        "patient_id": "U100"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_101.jpg",
+        "label": 1,
+        "patient_id": "U101"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_108.jpg",
+        "label": 1,
+        "patient_id": "U108"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_113.jpg",
+        "label": 1,
+        "patient_id": "U113"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_116.jpg",
+        "label": 1,
+        "patient_id": "U116"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_121.jpg",
+        "label": 1,
+        "patient_id": "U121"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_129.jpg",
+        "label": 1,
+        "patient_id": "U129"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_135.jpg",
+        "label": 1,
+        "patient_id": "U135"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_144.jpg",
+        "label": 1,
+        "patient_id": "U144"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_147.jpg",
+        "label": 1,
+        "patient_id": "U147"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_154.jpg",
+        "label": 1,
+        "patient_id": "U154"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_157.jpg",
+        "label": 1,
+        "patient_id": "U157"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_159.jpg",
+        "label": 1,
+        "patient_id": "U159"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_162.jpg",
+        "label": 1,
+        "patient_id": "U162"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_176.jpg",
+        "label": 1,
+        "patient_id": "U176"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_179.jpg",
+        "label": 1,
+        "patient_id": "U179"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_193.jpg",
+        "label": 1,
+        "patient_id": "U193"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_204.jpg",
+        "label": 1,
+        "patient_id": "U204"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_205.jpg",
+        "label": 1,
+        "patient_id": "U205"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_220.jpg",
+        "label": 1,
+        "patient_id": "U220"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_222.jpg",
+        "label": 1,
+        "patient_id": "U222"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_231.jpg",
+        "label": 1,
+        "patient_id": "U231"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_236.jpg",
+        "label": 1,
+        "patient_id": "U236"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_244.jpg",
+        "label": 1,
+        "patient_id": "U244"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_249.jpg",
+        "label": 1,
+        "patient_id": "U249"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_252.jpg",
+        "label": 1,
+        "patient_id": "U252"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_269.jpg",
+        "label": 1,
+        "patient_id": "U269"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_282.jpg",
+        "label": 1,
+        "patient_id": "U282"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_284.jpg",
+        "label": 1,
+        "patient_id": "U284"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_299.jpg",
+        "label": 1,
+        "patient_id": "U299"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_307.jpg",
+        "label": 1,
+        "patient_id": "U307"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_312.jpg",
+        "label": 1,
+        "patient_id": "U312"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_317.jpg",
+        "label": 1,
+        "patient_id": "U317"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_321.jpg",
+        "label": 1,
+        "patient_id": "U321"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_322.jpg",
+        "label": 1,
+        "patient_id": "U322"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_323.jpg",
+        "label": 1,
+        "patient_id": "U323"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_325.jpg",
+        "label": 1,
+        "patient_id": "U325"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_333.jpg",
+        "label": 1,
+        "patient_id": "U333"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_339.jpg",
+        "label": 1,
+        "patient_id": "U339"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_340.jpg",
+        "label": 1,
+        "patient_id": "U340"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_345.jpg",
+        "label": 1,
+        "patient_id": "U345"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_355.jpg",
+        "label": 1,
+        "patient_id": "U355"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_363.jpg",
+        "label": 1,
+        "patient_id": "U363"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_364.jpg",
+        "label": 1,
+        "patient_id": "U364"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_377.jpg",
+        "label": 1,
+        "patient_id": "U377"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_393.jpg",
+        "label": 1,
+        "patient_id": "U393"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_402.jpg",
+        "label": 1,
+        "patient_id": "U402"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_405.jpg",
+        "label": 1,
+        "patient_id": "U405"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_411.jpg",
+        "label": 1,
+        "patient_id": "U411"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_417.jpg",
+        "label": 1,
+        "patient_id": "U417"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_439.jpg",
+        "label": 1,
+        "patient_id": "U439"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_454.jpg",
+        "label": 1,
+        "patient_id": "U454"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_457.jpg",
+        "label": 1,
+        "patient_id": "U457"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_488.jpg",
+        "label": 1,
+        "patient_id": "U488"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_492.jpg",
+        "label": 1,
+        "patient_id": "U492"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_498.jpg",
+        "label": 1,
+        "patient_id": "U498"
+      },
+      {
+        "image_path": "data/raw/images/ulcer/ulcer_506.jpg",
+        "label": 1,
+        "patient_id": "U506"
+      }
+    ]
+  }
+}
