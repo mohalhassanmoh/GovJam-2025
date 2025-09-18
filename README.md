@@ -3,7 +3,7 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 
 
 <div align="center">
-  <img src="Saudi.jpeg" alt="وصف بديل" width="500">
+  <img src="data/Saudi.jpeg"  width="500">
 </div>
 
 # GovJam 2025 – AI Prototype for Diabetic Foot Ulcer Triage
