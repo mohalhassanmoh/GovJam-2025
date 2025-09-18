@@ -1,5 +1,7 @@
-Saudi.jpeg
-<img src="Saudi.jpeg" alt="وصف بديل" width="300">
+
+<div align="center">
+  <img src="Saudi.jpeg" alt="وصف بديل" width="600">
+</div>
 
 
 # GovJam-2025
