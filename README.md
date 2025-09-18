@@ -1,9 +1,6 @@
-
 <div align="center">
-  <img src="Saudi.jpeg" alt="وصف بديل" width="600">
+  <img src="Saudi.jpeg" alt="وصف بديل" width="500">
 </div>
-
-
 # GovJam-2025
 AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 # GovJam 2025 – AI Prototype for Diabetic Foot Ulcer Triage
