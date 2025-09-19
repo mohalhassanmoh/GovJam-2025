@@ -72,3 +72,27 @@ data/                                   📂 Project data root
    │  └─ ulcer/                          🩹 Raw “ulcer” images
    └─ images_test_final/                 📊 External/final test set for reporting only
 
+
+
+   data/                                   📂 Project data root
+├─ interim/                              🧪 Temporary / intermediate artifacts
+│  ├─ meta_seed.csv                      🎲 Random seed + meta info for reproducible splits
+│  ├─ processed_meta.csv                 🧾 Cleaned metadata (paths, sizes, labels)
+│  └─ splits.json                        🔀 Train/val/test split mapping (filenames/IDs)
+├─ processed/                            🛠️ Model-ready data
+│  ├─ train/                             🎓 Training set
+│  │  ├─ healthy/                        ✅ "Healthy" training images
+│  │  └─ ulcer/                          🩹 "Ulcer" training images
+│  ├─ val/                               🧪 Validation set (during training)
+│  │  ├─ healthy/                        ✅ "Healthy" validation images
+│  │  └─ ulcer/                          🩹 "Ulcer" validation images
+│  └─ test/                              🧭 Final test set (no peeking)
+│     ├─ healthy/                        ✅ "Healthy" test images
+│     └─ ulcer/                          🩹 "Ulcer" test images
+└─ raw/                                  📦 Raw, untouched source data
+   ├─ images/                            🖼️ Primary raw image source
+   │  ├─ healthy/                        ✅ Raw "healthy" images
+   │  └─ ulcer/                          🩹 Raw "ulcer" images
+   └─ images_test_final/                 📊 External/final test set for reporting only
+
+
