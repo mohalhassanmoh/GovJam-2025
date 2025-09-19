@@ -16,9 +16,13 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 ## 📂 مكونات المشروع
 - **GovJam_2025.ipynb** → لتجربة النموذج مباشرة على Google Colab  
 - **data/** →                            📂 Project data root
+
 ├─ interim/                              🧪 Temporary / intermediate artifacts
+
 │  ├─ meta_seed.csv                      🎲 Random seed + meta info for reproducible splits
+
 │  ├─ processed_meta.csv                 🧾 Cleaned metadata (paths, sizes, labels)
+
 │  └─ splits.json                        🔀 Train/val/test split mapping (filenames/IDs)
 ├─ processed/                            🛠️ Model-ready data
 │  ├─ train/                             🎓 Training set
