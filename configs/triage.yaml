@@ -1,0 +1,69 @@
+triage:
+  mode: p_area
+  S:
+    critical: 80
+    high: 60
+    med: 40
+    texts:
+      critical: Immediate ER referral; surgical/vascular assessment.
+      high: Specialist clinic within 24h; antibiotics/advanced dressing.
+      med: Clinic within 72h; offloading and glycemic control.
+      low: Routine appointment (2–4 weeks); education & prevention.
+  p_area:
+    rules:
+    - label: ER now
+      when:
+        p_ulcer_gte: 0.9
+        area_pct_gte: 10
+      advice: Urgent referral; vascular/wound assessment; intensive glycemic control.
+    - label: Within 24h
+      when:
+        p_ulcer_gte: 0.75
+        area_pct_gte: 5
+      advice: Expedited clinic within 24h; antibiotics and advanced dressing.
+    - label: Within 72h
+      when:
+        p_ulcer_gte: 0.5
+      advice: Clinic within 72h; prevention plan and offloading.
+    - label: Routine (2–4 weeks)
+      when: {}
+      advice: Routine follow-up; education; footwear/pressure check.
+model:
+  ckpt_path: /content/models/baseline_efficientnet_b0.pth
+  arch: efficientnet_b0
+  positive_is_ulcer: true
+transforms:
+  img_size: 224
+  mean:
+  - 0.485
+  - 0.456
+  - 0.406
+  std:
+  - 0.229
+  - 0.224
+  - 0.225
+calibration:
+  T: 0.5402
+severity:
+  weight_p: 0.7
+  weight_area: 0.3
+area_estimation:
+  enabled: true
+  method: cam_topk
+  cam_topk_percentile: 0.85
+quality:
+  min_width: 256
+  min_height: 256
+  min_brightness: 20
+  max_brightness: 235
+  min_blur_var: 80.0
+  action: reject
+latency:
+  log: true
+ui:
+  bilingual: false
+  overlay_alpha: 0.45
+paths:
+  figures_dir: /content/reports/figures
+  cases_csv: /content/reports/cases.csv
+  reports_dir: /content/reports

@@ -1,0 +1,5 @@
+temperature: 0.4397408366203308
+thresholds:
+  tau1_low_med: 0.13
+  tau2_med_high: 0.13
+  target_recall_high: 0.95
