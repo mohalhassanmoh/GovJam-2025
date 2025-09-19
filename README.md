@@ -24,8 +24,12 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 ## ⚙️ طريقة التشغيل
 1. **استنساخ المستودع:**
    ```bash
-   git clone https://github.com/<username>/<repo-name>.git
-   cd <repo-name>
+!git clone  https://github.com/mohalhassanmoh/GovJam-2025
+!mv /content/GovJam-2025/configs /content/
+!mv /content/GovJam-2025/data /content/
+!mv /content/GovJam-2025/models /content/
+!mv /content/GovJam-2025/reports /content/
+!rm -r /content/GovJam-2025
 
 ## 🚀 Quick Start
 لتجربة النموذج مباشرة على Google Colab اضغط الزر:
