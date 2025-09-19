@@ -78,7 +78,12 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 
 ## ✅ النتائج المتوقعة (Demo)
 - **صورة إدخال** → احتمال الإصابة + فئة الخطورة + Grad-CAM.  
-- **تقرير تلقائي**: اسم الملف، التنبؤ، العتبات، وقت المعالجة، ومسار الحفظ.  
+- **تقرير تلقائي**: اسم الملف، التنبؤ، العتبات، وقت المعالجة، ومسار الحفظ.
+<div align="center">
+  <img src="data/Inference-Gradio.jpg"  width="700">
+</div>
+
+
 > **أضف** لقطة شاشة أو GIF لواجهة Gradio والنتائج هنا.
 
 ---
