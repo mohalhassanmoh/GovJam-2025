@@ -35,4 +35,5 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 ## 🚀 Quick Start
 لتجربة النموذج مباشرة على Google Colab اضغط الزر:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/<repo-name>/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mohalhassanmoh/GovJam-2025/blob/main/GovJam_2025.ipynb
+)
