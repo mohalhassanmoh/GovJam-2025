@@ -82,18 +82,6 @@ AI prototype for diabetic foot ulcer triage – GovJam 2025 Innovation Challenge
 2) ضع بياناتك في `data/` أو فعّل جلبها من مصدر خارجي (Kaggle/Drive).  
 3) شغّل قسم **Inference/Gradio** لتجربة الواجهة.
 
-> **ملاحظة**: في بيئات التحكيم/العرض، احرص على تضمين عيّنات صور توضيحية داخل المستودع لتعمل الواجهة مباشرة.
-
-### تشغيل محلي
-```bash
-# 1) إنشاء بيئة
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-# 2) تشغيل الواجهة
-python src/app_gradio.py
-
-
 
 
 🔍 كيف يعمل؟
